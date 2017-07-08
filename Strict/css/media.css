@@ -1,0 +1,195 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+		.flex-block {
+		display: flex;
+		margin: auto;
+		width: 80%;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.logo img {
+		margin: 31px 17px 31px 152px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.line { 
+		width: 450px;
+	}
+
+	.feature .flex-block {
+		display: flex;
+		margin: 2%;
+		width: 100%;
+}
+
+.flex-item p {
+		font-size: 13px;
+	}
+
+#callback #name-field,
+#callback #email-field {
+  width: 425px;
+}
+
+#callback #message-field {
+  width: 425px;
+}
+
+.social {
+	padding-right: 5%;
+}
+
+.footer p {
+	margin-left: 5%;
+}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+	.logo img {
+		margin: 31px 17px 31px 92px;
+	}
+
+	.line { 
+		width: 340px;
+	}
+
+	.header h1 {
+		font-size: 80px;
+	}
+	.info h2 {
+  		font-size: 30px;
+	}
+	.info p {
+		font-size: 18px;
+	}
+
+	.flex-block {
+		display: flex;
+		margin: 0;
+		width: 100%;
+}
+	.flex-item {
+		padding-top: 0px;
+		margin: 0;
+}
+
+		.flex-item h3 {
+		font-size: 19px;
+	}
+	.flex-item p {
+		font-size: 11px;
+	}
+	#callback #name-field,
+	#callback #email-field {
+		width: 225px;
+	}
+
+	#callback #message-field {
+		width: 225px;
+	}
+
+	.form-button {
+  float: none;
+  margin: 25px auto;
+  display: block;
+}
+
+.social {
+	padding-right: 5%;
+	padding-left: 0;
+}
+
+.footer p {
+	margin-left: 5%;
+	margin-right: 0;
+}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.logo img {
+		margin: 31px 17px 31px 52px;
+	}
+
+	.line { 
+		width: 310px;
+	}
+	.info h2 {
+  		font-size: 25px;
+	}
+
+	.info p {
+		font-size: 14px;
+	}
+
+	.flex-item h3 {
+		font-size: 18px;
+	}
+	.flex-item p {
+		font-size: 10px;
+	}
+	
+	.portfolio h2 {
+		padding-top: 10px;
+	}
+
+	.portfolio img {
+  		margin: 2%;
+		width: 100%;
+}
+
+.footer {
+	text-align: center;
+	height: 150px;
+}
+
+.footer p {
+	text-align: center;
+}
+
+.footer .social {
+	padding: 0;
+	position:absolute;
+	right:23%;
+	width: 175px;
+}
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+}
