@@ -1,0 +1,141 @@
+body {
+	font-family: "PT Sans", sans-serif;
+	font-size: 16px;
+}
+
+.header {
+	background-color: #F8B9B6;
+}
+
+.header h2 {
+	font-size: 38px;
+	font-family: "PT Serif";
+	color: rgb(255, 102, 51);
+	font-weight: bold;
+	line-height: 0.667;
+}
+
+
+.top_menu ul{
+	list-style: none;
+}
+
+.top_menu ul li {
+	display: inline-block;
+	padding-right: 50px;
+	padding-top: 15px; 
+	font-size: 20px;
+}
+
+.top_menu ul li:last-child {
+	padding-right: 0;
+}
+
+.top_menu ul li a:hover {
+	color: #553F3F;
+	transition-duration: 1s;
+	cursor: pointer;
+}
+
+.top_menu ul li a {
+	text-decoration: none;
+	color:#D66438 ;
+}
+
+.banner img {
+	padding-bottom: 35px;
+}
+
+
+.content {
+	background-color:#FDF2F2;
+	padding-bottom: 35px;
+}
+
+.content h2 {
+	text-transform: uppercase;
+	color:  #553F3F;
+	text-align: center;
+	margin: 40px 0 40px 0;
+}
+
+.products {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	text-align: center;
+}
+
+
+.flex-item {
+	display: flex;
+	margin-right: 75px;
+}
+
+.last {
+	margin-right: 0px;
+}
+
+.flex-item img{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 170px;
+	height: 260px;
+	margin: 0 auto;
+}
+
+.flex-item img:hover {
+	box-shadow: 3px 2px #F19C93;
+	opacity:0.7;
+	transition-duration: 0.7s;
+}
+
+
+.flex-item p {
+	text-align: center;
+	font-weight: bold; 
+}
+
+.flex-item a {
+	text-decoration: none;
+	color: #553F3F;
+}
+
+input[type="submit"] {
+  border-style: solid;
+
+  background-color: #B01717;
+  width: 140px;
+  height: 58px;
+  border-radius:  5px;
+  color: #ffffff;
+  font-weight:  normal;
+  font-size: 20px;
+  margin: 20px auto;
+  display: block;  
+}
+
+.footer {
+	background-color: #F8B9B6;
+	height: 130px;
+}
+
+.footer p {
+	font-size: 18px;
+	color: rgb(153, 153, 153);
+	line-height: 1.2;
+	display: inline-block;
+	margin: 40px 65px;
+	float: left;
+}
+
+.footer ul {
+	float: right;
+	list-style-image: url("../img/wi.png");
+	margin-right: 65px;
+}
