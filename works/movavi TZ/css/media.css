@@ -1,0 +1,188 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	/*--------------БАННЕР---------------*/
+	.header__banner {
+		background-position: 45% 100%;
+		height: auto;
+	}
+
+	.centered {
+		margin: 0;
+		padding: 0;
+	}
+
+	.header__banner_items {
+		float: right;
+		padding-top: 0;
+		width: 27%;
+		height: auto;
+		margin-top: -420px;
+	}
+
+	.button__windows, .button__apple {
+		width: 45%;
+		height: 63px;
+	}
+
+	.button__apple {
+		margin-left: 9.3%;
+		margin-bottom:60px;
+	}
+
+	.button__windows-dscr, .button__apple-dscr {
+		display: none;
+	}
+
+	.button__windows .fa, .button__apple  .fa {
+		margin: 19px 9px 0 33.5%;
+
+	}
+
+	.button__windows-purchase , .button__apple-purchase {
+		display: inline-block;
+		margin: 19px 33%  0 0;
+		font-size: 19px;
+	}
+	/*--------------БАННЕР-END---------------*/
+
+
+	/*--------------КОНТЕНТ---------------*/
+	.content__top_section-dscr {
+		padding: 0;
+	}
+	.hidden-br {
+		display: none;
+	}
+	
+	.main__content_steps {
+		padding: 0;
+	}
+
+	.main__content_steps:before {
+		left: -16px;
+	}
+
+	
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	html {
+	overflow-x: hidden
+}
+
+	/*--------------БАННЕР---------------*/
+	.header__banner {
+
+	height: auto;
+	background-size: cover;
+	}
+
+	.header__banner_slogan-regular {
+		padding-top: 52px;
+	}
+
+	.header__banner_instruction{
+		line-height: 1.5;
+		padding: 20px 0 30px 0;
+		font-size: 19px;
+	}
+	
+	.button__windows, .button__apple {
+		width: 287px;
+		height: 63px;
+	}
+
+	.button__apple {
+		margin: 32px 0 60px 0;
+	}
+
+	.header__banner_items {
+		display: none;
+	}
+
+	.button__windows-purchase , .button__apple-purchase {
+		display: inline-block;
+		margin: 19px 28.5%  0 0;
+	}
+/*--------------БАННЕР-END---------------*/
+
+
+	/*--------------КОНТЕНТ---------------*/
+
+	.hidden-mobile {
+		display: none;
+	}
+
+	.main__content_steps:before {
+		display: none;
+	}
+
+	.main__content_steps  {
+		list-style: none;
+	}
+
+	.main__content_step-2--pic {
+		display: none;
+	} 
+
+	.main__content_step-2-dscr {
+		width: 100%;
+	}
+	
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.hidden-tablets {
+		display: none;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.button__apple, .button__windows {
+		margin-bottom: 60px;
+	}
+
+	.content__top_section-dscr {
+		white-space: nowrap;
+	}
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+}}}}
