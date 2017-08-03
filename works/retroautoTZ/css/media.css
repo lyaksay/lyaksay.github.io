@@ -1,0 +1,111 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.item__list_product {
+	margin-right: 0;
+	float: left;
+	}
+
+	.item__list_product-right {
+		float: left;
+	}
+
+	.item__list {
+		padding-top: 30px;
+		padding-left: 0;
+	}
+
+	#contacts {
+		position: fixed;
+		top: 5%;
+		left: 95%;
+}
+
+	.info, .info:after {
+		display: none;
+	}
+
+
+	.modal__form_price-bold {
+		margin-right: 20%;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.item__list_product-countries {
+		float: left;
+		padding: 10px 0 5px 0;
+
+	}
+
+	.item__list_product {
+	margin-right: 0;
+	float: left;
+	}
+
+	.item__list_product-right {
+		float: left;
+		padding: ;
+	}
+
+	#contacts {
+		display: none;
+}
+
+	#modal__form {
+		width: 100%;
+		left: 0;
+	}
+
+	#modal__form_overlay {
+		display: none;
+		width: 0;
+	}
+
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+}
