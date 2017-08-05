@@ -36,16 +36,41 @@
 		display: none;
 	}
 
-
 	.modal__form_price-bold {
 		margin-right: 20%;
 	}
 
-	#callback {
-		margin: 0 auto;
-		display: block;
-		text-align: center;
+	.modal__form_nameProduct {
+		padding-top: 20px;
 	}
+
+	.modal__form_yourCountry {
+		padding-left: 14px;
+	}
+
+	.modal__form_chooseCountry {
+		float: none;
+		margin: 10px auto;
+		width: 60%;
+	}
+
+	.modal__form_china {
+		margin-bottom: 15px;
+	}
+
+	.modal__form_nameProduct {
+		padding: 10px 0;
+	}
+
+	#callback {
+		display: block;
+		width: 50%;
+		margin: 20px auto;
+		float: none;
+		clear: left;
+	}
+
+	
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
