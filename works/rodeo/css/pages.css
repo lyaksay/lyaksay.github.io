@@ -1,0 +1,196 @@
+/*
+**
+**  STATIC PAGES STYLES
+**
+*/
+/* faq */
+.quest__block {
+  padding: 0;
+}
+
+.faq_request {
+  padding: 15px 15px 8px;
+  cursor: pointer;
+}
+
+.faq_request p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.faq_response {
+  padding: 10px 15px;
+}
+
+/* kak-podshit-dzhinsy */
+.podshit img {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  -webkit-box-shadow: 0 0 5px #dcddde;
+          box-shadow: 0 0 5px #dcddde;
+}
+
+/* uhod-za-odezhdoj */
+.icons__uhod {
+  padding: 15px;
+}
+
+.i__row p {
+  padding: 8px 8px 8px 50px;
+  background-image: url(/files/uploads/uhod/i_test.png);
+  background-position: left center;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+}
+
+/* size tables for men */
+.dtrm {
+  -webkit-box-shadow: 0px 0px 30px 1px rgba(192, 192, 192, 0.3);
+          box-shadow: 0px 0px 30px 1px rgba(192, 192, 192, 0.3);
+  margin: 0 auto;
+  max-width: 72%;
+}
+
+.dtrm__header {
+  position: relative;
+  padding: 33px 38px 32px;
+  background: #f2f2f2;
+  min-height: 111px;
+}
+.dtrm__header .dtrm__header-bold {
+  display: block;
+  font-size: 16px;
+  font-family: "Arial";
+  color: #302e2f;
+  font-weight: bold;
+  line-height: 1.25;
+}
+.dtrm__header .dtrm__header-title {
+  padding-top: 10px;
+}
+.dtrm__header .dtrm__header-title--active {
+  font-size: 14px;
+  font-family: "Arial";
+  color: #fb785e;
+  line-height: 1.429;
+  border-bottom: 1px dotted #fb785e;
+  cursor: pointer;
+}
+.dtrm__header .dtrm__header-title--noactive {
+  color: #656464;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Arial";
+  line-height: 1.429;
+}
+
+.close-block {
+  display: inline-block;
+  position: absolute;
+  right: 38px;
+}
+
+.dtrm__sizes {
+  padding: 33px 38px 21px;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.first-table {
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.dtrm__sizes-title {
+  font-size: 14px;
+  font-family: "Arial";
+  color: #303030;
+  font-weight: bold;
+  line-height: 1.429;
+  float: left;
+}
+
+.dtrm__sizes-details {
+  float: right;
+  font-size: 14px;
+  font-family: "Arial" !important;
+  padding-bottom: 30px;
+}
+
+.dtrm__sizes-details-span, .dtrm__sizes-details--link {
+  color: #303030;
+  font-size: 14px;
+  font-family: "Arial";
+  color: #303030;
+}
+
+.dtrm__sizes-details--link {
+  text-decoration: underline !important;
+}
+
+.dtrm__sizes-details--link:hover {
+  color: #303030 !important;
+}
+
+.table {
+  border: 1px solid #8f8f8f;
+  font-size: 13px;
+  font-family: "Arial";
+}
+.table .table__title-main {
+  text-align: center;
+  background-color: #f2f2f2;
+  width: 17.2%;
+  border: 1px solid #8f8f8f;
+}
+.table .table__title {
+  text-align: center;
+  background-color: #f2f2f2;
+  border: 1px solid #8f8f8f;
+  font-weight: bold;
+}
+.table .table__cell {
+  text-align: center;
+  border: 1px solid #8f8f8f;
+}
+
+@media only screen and (min-width: 768px) {
+  .table-responsive {
+    min-height: .01%;
+    overflow-x: visible;
+  }
+}
+.dtrm__sizes-descr {
+  font-size: 13px;
+  line-height: 1.154;
+  text-align: left;
+  margin: 0;
+}
+.dtrm__sizes-descr .dtrm__sizes-descrDark {
+  color: #222222;
+}
+.dtrm__sizes-descr .dtrm__sizes-descrLight {
+  color: #868686;
+}
+.dtrm__sizes-descr span {
+  font-family: "Arial";
+}
+
+.dtrm__sizes-jeans {
+  padding: 33px 38px 22px;
+  margin: 0;
+}
+.dtrm__sizes-jeans table {
+  margin-top: 30px;
+}
+.dtrm__sizes-jeans .dtrm__sizes-jeans--descrNormal {
+  font-size: 13px;
+  font-family: "Arial";
+  color: #434242;
+  line-height: 1.154;
+  margin-bottom: 17px;
+  display: block;
+}
+.dtrm__sizes-jeans .dtrm__sizes-jeans--descrNormal:last-child {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=pages.css.map */

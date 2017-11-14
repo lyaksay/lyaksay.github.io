@@ -33,7 +33,7 @@
 }
 
 	.info, .info:after {
-		display: none;
+		display: none !important;
 	}
 
 	.modal__form_price-bold {
