@@ -48,7 +48,7 @@
   -webkit-box-shadow: 0px 0px 30px 1px rgba(192, 192, 192, 0.3);
           box-shadow: 0px 0px 30px 1px rgba(192, 192, 192, 0.3);
   margin: 0 auto;
-  max-width: 72%;
+  max-width: 78%;
 }
 
 .dtrm__header {
@@ -138,7 +138,7 @@
 .table .table__title-main {
   text-align: center;
   background-color: #f2f2f2;
-  width: 17.2%;
+  min-width: 17.2%;
   border: 1px solid #8f8f8f;
 }
 .table .table__title {
@@ -146,10 +146,14 @@
   background-color: #f2f2f2;
   border: 1px solid #8f8f8f;
   font-weight: bold;
+  max-height: 24px !important;
 }
 .table .table__cell {
   text-align: center;
   border: 1px solid #8f8f8f;
+}
+.table td {
+  padding: 6px !important;
 }
 
 @media only screen and (min-width: 768px) {
@@ -191,6 +195,33 @@
 }
 .dtrm__sizes-jeans .dtrm__sizes-jeans--descrNormal:last-child {
   margin-bottom: 0;
+}
+
+@media only screen and (max-width: 320px) {
+  .dtrm {
+    -webkit-box-shadow: 0px 0px 30px 1px rgba(192, 192, 192, 0.3);
+            box-shadow: 0px 0px 30px 1px rgba(192, 192, 192, 0.3);
+    max-width: 100%;
+  }
+
+  .dtrm__header {
+    padding: 20px 10px;
+  }
+
+  .close-block {
+    display: inline-block;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+  }
+
+  .dtrm__sizes, .dtrm__sizes-jeans {
+    padding: 23px 10px 21px;
+  }
+
+  .table-responsive {
+    border: none;
+  }
 }
 
 /*# sourceMappingURL=pages.css.map */
