@@ -193,7 +193,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .table-responsive {
+  .wrapper__table {
     min-height: .01%;
     overflow-x: visible;
     overflow-y: auto;
@@ -231,7 +231,7 @@
     padding: 23px 10px 21px;
   }
 
-  .table-responsive {
+  .wrapper__table {
     border: none;
   }
 }

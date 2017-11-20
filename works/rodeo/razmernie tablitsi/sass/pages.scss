@@ -218,7 +218,7 @@ $main_table_border: 1px solid #8f8f8f;
 
 
 @media only screen and (min-width : 768px) {
-	.table-responsive {
+	.wrapper__table {
 		min-height: .01%;
 		overflow-x: visible;
 		overflow-y: auto;
@@ -259,7 +259,7 @@ $main_table_border: 1px solid #8f8f8f;
 	.dtrm__sizes, .dtrm__sizes-jeans {
 		padding: 23px 10px 21px;
 	}
-	.table-responsive {
+	.wrapper__table {
 		border: none;
 	}
 
