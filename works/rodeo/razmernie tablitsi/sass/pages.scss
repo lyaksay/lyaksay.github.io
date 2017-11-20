@@ -146,10 +146,11 @@ $wrapper: 33px 38px 32px;
 
 $main_table_border: 1px solid #8f8f8f;
 
-.table {
+.table__sizes {
 	border: $main_table_border;
 	font-size: 13px;
 	font-family: "Arial";
+	
 
 	.table__title-main {
 		text-align: left;
