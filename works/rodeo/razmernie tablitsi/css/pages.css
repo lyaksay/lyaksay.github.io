@@ -138,7 +138,7 @@
 .table__sizes .table__title-main {
   text-align: left;
   background-color: #f2f2f2;
-  width: 20%;
+  min-width: 16.5%;
   border: 1px solid #8f8f8f;
 }
 .table__sizes .table__title {
@@ -238,6 +238,76 @@
 @media only screen and (max-width: 425px) {
   .dtrm {
     max-width: 100%;
+  }
+}
+.measurements__jeans {
+  padding: 33px 38px 21px;
+}
+
+.measurements__sizes-title {
+  font-size: 14px;
+  font-family: "Arial";
+  color: #303030;
+  font-weight: bold;
+  line-height: 1.429;
+}
+
+.measurements__borders {
+  border-right: 1px solid #f2f2f2;
+}
+
+.clearfix {
+  content: "";
+  clear: both;
+}
+
+.img-padding {
+  padding: 0 !important;
+}
+
+.man__measurements-pic {
+  display: block;
+  margin: 0 auto;
+}
+
+.measurements__shoulders {
+  padding: 33px 38px 21px;
+  float: left;
+  border-top: 1px solid #f2f2f2;
+}
+.measurements__shoulders :last-child {
+  margin-bottom: 50px;
+}
+
+.measurements__descr {
+  font-size: 13px;
+  display: block;
+  font-family: "Arial";
+  color: #5f5e5e;
+  line-height: 1.538;
+  text-align: left;
+  margin-top: 26px;
+}
+.measurements__descr .red_text {
+  color: #fa2525;
+}
+
+.measurements__descr-black {
+  color: #3b3b3b;
+  font-size: 13px;
+  font-family: "Arial";
+  color: #363434;
+  line-height: 1.538;
+  text-align: left;
+  font-weight: bold;
+  margin-top: 26px;
+  display: block;
+}
+
+@media only screen and (max-width: 320px) {
+  .measurements__shoulders
+  :last-child {
+    margin-bottom: 20px;
   }
 }
 
