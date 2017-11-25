@@ -1,0 +1,28 @@
+body {
+	background: url('../images/back.gif');
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-height: 20px;
+}
+
+img {
+	position: absolute;
+	top: 10%;
+	left: 45%;
+}
+
+.poem {
+	font-family: Fita_Vjaz;
+	font-size: 80px;
+	color: #8F0000;
+	padding:0 35px;
+	margin: 0;
+}
+
+.angels {
+	position: fixed;
+	top: 19px;
+	left : 88%;
+	width: 100px;
+	opacity: 0.7;
+}
