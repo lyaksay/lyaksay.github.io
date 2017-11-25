@@ -1,3 +1,4 @@
+
 body {
 	background: url('../images/back.gif');
 	background-size: cover;
@@ -6,7 +7,7 @@ body {
 }
 
 .max-img {
-	position: absolute;
+	position: fixed;
 	top: 15%;
 	left: 45%;
 }
@@ -19,10 +20,19 @@ body {
 	margin: 2% 0;
 }
 
-.angels {
-	position: fixed;
-	top: 19px;
-	left : 88%;
+
+.angels-wrapper {
+	width: 100%;
+	height: auto;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	position: relative;
+}
+
+#angels {
+	position: absolute;
+	left: 90%;
+	top: -245px;
 	width: 100px;
 	opacity: 0.7;
 }
