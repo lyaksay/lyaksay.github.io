@@ -5,25 +5,18 @@ body {
 	max-height: 20px;
 }
 
-@font-face {
-	font-family: Fita_Vjaz;
-	src: url('..//fonts/Fita_Vjaz.ttf');
-	font-weight: normal;
-	font-style: normal;
-}
-
-img {
+.max-img {
 	position: absolute;
-	top: 10%;
+	top: 15%;
 	left: 45%;
 }
 
 .poem {
-	font-family: 'Fita_Vjaz';
-	font-size: 80px;
+	font-family: DS Yermak_D;
+	font-size: 45px;
 	color: #8F0000;
 	padding:0 35px;
-	margin: 0;
+	margin: 2% 0;
 }
 
 .angels {
