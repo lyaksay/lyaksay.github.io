@@ -5,6 +5,13 @@ body {
 	max-height: 20px;
 }
 
+@font-face {
+	font-family: 'Fita_Vjaz';
+	src: url('..//fonts/7741.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
 img {
 	position: absolute;
 	top: 10%;
