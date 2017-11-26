@@ -166,7 +166,7 @@ $main_table_border: 1px solid #8f8f8f;
 	.table__title-main {
 		text-align: left;
 		background-color: #f2f2f2;
-		min-width: 16.5%;
+		width: 20.5%;
 		border: 1px solid #8f8f8f;
 	}
 	.table__title {
@@ -182,11 +182,17 @@ $main_table_border: 1px solid #8f8f8f;
 	}
 	td {
 		max-width: 59px;
-		padding: px !important;
 	}
-
-
 }
+
+.table__title-firstTable {
+	min-width: 80px;
+}
+
+.table__title-secondTable {
+	width: 8.6%;
+}
+
 
 .dtrm__sizes-descr {
 	font-size: 13px;
