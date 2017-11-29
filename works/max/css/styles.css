@@ -11,9 +11,11 @@ body {
 	left: 45%;
 }
 
+
+
 .poem {
 	font-family: DS Yermak_D;
-	font-size: 45px;
+	font-size: 34px;
 	color: #8F0000;
 	padding:0 35px;
 	margin: 2% 0;
@@ -37,12 +39,9 @@ body {
 	opacity: 0.7;
 }
 
-@media screen and (max-width:480px) and (min-width:800px) {
-	.poem {
-		font-size: 34px !important;
-	}
-	body {
-		background-repeat: repeat-y;
-	}
 
+@media only screen and (max-width : 320px) {
+	.poem {
+		font-size: 15px;
+	}
 }
