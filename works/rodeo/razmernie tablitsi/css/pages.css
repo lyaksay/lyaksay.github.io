@@ -226,6 +226,12 @@
   margin-bottom: 0;
 }
 
+@media only screen and (max-width: 992px) {
+  .dtrm__sizes-details {
+    float: left;
+    padding-top: 20px;
+  }
+}
 @media only screen and (min-width: 768px) {
   .wrapper__table {
     min-height: .01%;
@@ -241,6 +247,19 @@
 @media only screen and (max-width: 768px) {
   .dtrm__sizes, .dtrm__sizes-jeans, .dtrm__header {
     padding: 23px 15px 21px;
+  }
+
+  .table__sizes {
+    font-size: 12px;
+  }
+
+  .dtrm__sizes-details {
+    float: left;
+    padding-top: 20px;
+  }
+
+  .wrapper__table {
+    border: none;
   }
 }
 @media only screen and (max-width: 320px) {
@@ -267,6 +286,10 @@
 
   .wrapper__table {
     border: none;
+  }
+
+  .table__sizes {
+    font-size: 11px;
   }
 }
 @media only screen and (max-width: 425px) {

@@ -244,6 +244,14 @@ $main_table_border: 1px solid #8f8f8f;
 
 
 
+@media only screen and (max-width : 992px) {
+	.dtrm__sizes-details {
+		float: left;
+		padding-top: 20px;
+	}
+}
+
+
 @media only screen and (min-width : 768px) {
 	.wrapper__table {
 		min-height: .01%;
@@ -264,6 +272,18 @@ $main_table_border: 1px solid #8f8f8f;
 	.dtrm__sizes, .dtrm__sizes-jeans, .dtrm__header {
 		padding: 23px 15px 21px;
 	}
+	.table__sizes {
+		font-size: 12px;
+	}
+
+	.dtrm__sizes-details {
+		float: left;
+		padding-top: 20px;
+	}
+
+	.wrapper__table {
+		border: none;
+	}
 
 }
 
@@ -276,7 +296,6 @@ $main_table_border: 1px solid #8f8f8f;
 	.dtrm__header  {
 		padding: 20px 10px;
 	}
-
 	.close-block {
 		display: inline-block;
 		position: absolute;
@@ -289,6 +308,11 @@ $main_table_border: 1px solid #8f8f8f;
 	.wrapper__table {
 		border: none;
 	}
+
+	.table__sizes {
+		font-size: 11px;
+	}
+
 
 }
 
