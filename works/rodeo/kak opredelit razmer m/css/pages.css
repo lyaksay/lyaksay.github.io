@@ -231,14 +231,15 @@
   margin-bottom: 0;
 }
 
+@media only screen and (max-width: 1024px) {
+  .table__sizes {
+    font-size: 12px;
+  }
+}
 @media only screen and (max-width: 992px) {
   .dtrm__sizes-details {
     float: left;
     padding-top: 20px;
-  }
-
-  .table__sizes {
-    font-size: 12px;
   }
 }
 @media only screen and (min-width: 768px) {
