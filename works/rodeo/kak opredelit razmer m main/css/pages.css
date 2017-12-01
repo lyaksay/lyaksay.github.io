@@ -173,6 +173,10 @@
   max-width: 59px;
 }
 
+.table__no-margin {
+  margin-bottom: 0 !important;
+}
+
 .dtrm__sizes-detailsTable2 {
   padding-bottom: 0;
 }
@@ -189,7 +193,7 @@
   font-size: 13px;
   line-height: 1.154;
   text-align: left;
-  margin: 0;
+  margin-top: 20px;
 }
 .dtrm__sizes-descr .dtrm__sizes-descrDark {
   color: #222222;
