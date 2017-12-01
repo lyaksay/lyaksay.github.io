@@ -84,6 +84,7 @@
   font-family: "Arial";
   line-height: 1.429;
   cursor: pointer;
+  display: inline-block;
 }
 
 .main__header-title--noactive {
@@ -265,6 +266,10 @@
   .wrapper__table {
     border: none;
   }
+
+  .close-block {
+    display: none;
+  }
 }
 @media only screen and (max-width: 320px) {
   .dtrm {
@@ -337,7 +342,7 @@
   border-top: 1px solid  #ddd;
 }
 .measurements__shoulders :last-child {
-  margin-bottom: 46px;
+  margin-top: 10px;
 }
 
 .measurements__descr {

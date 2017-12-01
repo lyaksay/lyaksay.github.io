@@ -93,6 +93,7 @@ $wrapper: 33px 38px 32px;
 	font-family: "Arial";
 	line-height: 1.429;
 	cursor: pointer;
+	display: inline-block;
 }
 
 .main__header-title--noactive {
@@ -270,6 +271,7 @@ $main_table_border: 1px solid #8f8f8f;
 	}
 
 
+
 }
 
 
@@ -288,6 +290,10 @@ $main_table_border: 1px solid #8f8f8f;
 
 	.wrapper__table {
 		border: none;
+	}
+
+	.close-block {
+		display: none;
 	}
 
 }
@@ -363,7 +369,7 @@ $main_table_border: 1px solid #8f8f8f;
 	float: left;
 	border-top: 1px solid  #ddd;
 	:last-child {
-		margin-bottom: 46px;
+		margin-top: 10px;
 	}
 }
 
