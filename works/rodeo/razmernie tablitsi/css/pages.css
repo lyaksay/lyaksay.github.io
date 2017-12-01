@@ -171,6 +171,10 @@
   max-width: 59px;
 }
 
+.dtrm__sizes-detailsTable2 {
+  padding-bottom: 0;
+}
+
 .table__title-firstTable {
   min-width: 80px;
 }
