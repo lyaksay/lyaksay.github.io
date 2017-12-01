@@ -163,6 +163,7 @@ $main_table_border: 1px solid #8f8f8f;
 	border: $main_table_border;
 	font-size: 13px;
 	font-family: "Arial";
+	white-space: nowrap;
 
 	.table__title-main {
 		text-align: left;
@@ -176,6 +177,8 @@ $main_table_border: 1px solid #8f8f8f;
 		border: $main_table_border;
 		font-weight: bold;
 		max-height: 24px !important;
+
+
 	}
 	.table__cell {
 		text-align: center;
@@ -183,6 +186,7 @@ $main_table_border: 1px solid #8f8f8f;
 	}
 	td {
 		max-width: 59px;
+
 	}
 }
 

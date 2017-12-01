@@ -150,6 +150,7 @@
   border: 1px solid #8f8f8f;
   font-size: 13px;
   font-family: "Arial";
+  white-space: nowrap;
 }
 .table__sizes .table__title-main {
   text-align: left;
