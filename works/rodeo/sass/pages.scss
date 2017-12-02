@@ -470,6 +470,7 @@ $main_table_border: 1px solid #8f8f8f;
 	border-bottom: 1px solid  #ddd;
 	padding-bottom: 27px;
 	margin-top: 20px;
+	margin-bottom: 0;
 }
 
 .measurements__jeans-main {
@@ -490,9 +491,16 @@ $main_table_border: 1px solid #8f8f8f;
 
 @media only screen and (max-width : 1024px) {
 	.man__measurements-pic_main {
-		padding-bottom: 311px;
+		padding-bottom: 249px;
 	}
 }
+
+@media only screen and (max-width : 1024px) {
+	.man__measurements-pic_main {
+		
+	}
+}
+
 
 @media only screen and (max-width : 768px) {
 	.man__measurements-pic_main, 
