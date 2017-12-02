@@ -460,6 +460,11 @@
     padding-bottom: 249px;
   }
 }
+@media only screen and (max-width: 1191px) {
+  .man__measurements-pic_main {
+    padding-bottom: 249px;
+  }
+}
 @media only screen and (max-width: 768px) {
   .man__measurements-pic_main,
   .measurements__shoulders-main, .measurements__borders {
