@@ -236,6 +236,10 @@
   margin-bottom: 0;
 }
 
+.dtrm__sizes-jeans--descr {
+  margin-top: 20px;
+}
+
 @media only screen and (max-width: 1024px) {
   .table__sizes {
     font-size: 12px;
