@@ -459,6 +459,10 @@
   .man__measurements-pic_main {
     padding-bottom: 249px;
   }
+
+  .measurements__borders {
+    border-right: none;
+  }
 }
 @media only screen and (max-width: 1197px) {
   .man__measurements-pic_main {
