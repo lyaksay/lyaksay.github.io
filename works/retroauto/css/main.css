@@ -1,317 +1,53 @@
-body {
-  font-family: "Arial";
-}
+/*
+Error: Invalid CSS after "11px": expected expression (e.g. 1px, bold), was ";"
+        on line 48 of D:\lyaksay.github.io\works\retroauto\sass\main.sass
 
-#contacts {
-  position: fixed;
-  bottom: 6.6%;
-  left: 3%;
-}
+43: 	padding-left: 20px
+44: 	display: inline-block
+45: 
+46: .item__list_product-country
+47: 	padding-bottom: 8px
+48: 	font-size: 11px;
+49: 	color: rgb(147, 139, 139);
+50: 	line-height: 1.2;
+51: 
+52: .item__list_product-country:hover
+53: 	color: #282828
 
-#contacts img {
-  width: 20px;
-  height: 21px;
-}
-
-.contacts__share {
-  float: left;
-  margin-bottom: 15px;
-}
-
-.contacts__mail {
-  float: left;
-  clear: left;
-}
-
-.header__top_section-logo {
-  font-size: 12px;
-  color: black;
-  font-weight: bold;
-  text-transform: uppercase;
-  line-height: 1.2;
-  margin-left: 10%;
-  margin-top: 20px;
-}
-
-.item__list {
-  padding-top: 40px;
-  padding-left: 4%;
-}
-
-.item__list_product {
-  width: 50%;
-}
-
-.item__list_product-img {
-  float: left;
-}
-
-.item__list_product-countries {
-  list-style: none;
-  margin: 0;
-  padding-left: 20px;
-  display: inline-block;
-}
-
-.item__list_product-country {
-  padding-bottom: 8px;
-  font-size: 11px;
-  color: #938b8b;
-  line-height: 1.2;
-}
-
-.item__list_product-country:hover {
-  color: #282828;
-  cursor: pointer;
-}
-
-.item__list_nameProduct {
-  font-size: 12px;
-  font-family: "Arial";
-  color: #282828;
-  font-weight: bold;
-  line-height: 1.2;
-  text-align: left;
-  margin: 0;
-  padding-bottom: 10px;
-}
-
-.button__purchase {
-  color: #fff;
-  border-radius: 4px;
-  cursor: pointer;
-  display: inline-block;
-  width: 140px;
-  height: 41px;
-}
-
-.button__purchase {
-  background-color: #1e2523;
-  float: left;
-  clear: left;
-}
-
-.button__purchase-dscr {
-  font-size: 13px;
-  font-family: "Arial";
-  color: white;
-  line-height: 1.2;
-  text-align: center;
-  margin: 14px auto;
-  display: block;
-}
-
-.item__list_characteristics {
-  font-size: 12px;
-  font-family: "Arial";
-  color: #938b8b;
-  line-height: 1.2;
-  text-align: center;
-  margin-bottom: 13px;
-  float: left;
-}
-
-.info {
-  position: fixed;
-  background-color: #edf3dd;
-  left: 65%;
-  top: -1px;
-  width: 31%;
-  height: 100%;
-  overflow-y: auto;
-}
-
-.info:after {
-  content: '';
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 1px;
-  background-color: #edf4dd;
-  right: 63%;
-  border-radius: 1px;
-}
-
-.info__maybach, .info__beetle, .info__vollkswagen, .info__horch, .info__citroen {
-  padding: 10.8% 5.1%;
-  font-size: 12px;
-  font-family: "Arial";
-  color: black;
-  line-height: 1.2;
-  overflow-y: auto;
-}
-
-.info__maybach {
-  display: block;
-}
-
-.info__beetle {
-  display: none;
-}
-
-.info__vollkswagen {
-  display: none;
-}
-
-.info__horch {
-  display: none;
-}
-
-.info__citroen {
-  display: none;
-}
-
-.horch-btn {
-  background-color: #f0f0f0;
-  color: #5e6362;
-}
-
-.unavailable {
-  color: #5e6362;
-}
-
-#modal__form {
-  left: 65%;
-  position: fixed;
-  bottom: 90%;
-  width: 38%;
-  height: 100%;
-  background-color: #ffffff;
-  z-index: 5;
-  display: none;
-}
-
-#modal__form_close {
-  cursor: pointer;
-  top: 8px;
-  right: 8px;
-  position: fixed;
-}
-
-.modal__form_close-img {
-  width: 13px;
-  height: 13px;
-}
-
-#modal__form_overlay {
-  z-index: 3;
-  position: fixed;
-  background-color: rgba(52, 52, 52, 0.702);
-  width: 65%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  cursor: pointer;
-  display: none;
-}
-
-.modal__form_nameProduct {
-  font-size: 15px;
-  font-family: "Arial";
-  color: #282828;
-  font-weight: bold;
-  line-height: 1.2;
-  text-align: center;
-  padding-top: 48px;
-}
-
-.modal__form_price {
-  font-size: 15px;
-  font-family: "Arial";
-  color: #282828;
-  line-height: 1.2;
-  margin-left: 24.7%;
-  margin-right: 23px;
-}
-
-.modal__form_price-bold {
-  font-size: 15px;
-  font-family: "Arial";
-  color: #282828;
-  line-height: 1.2;
-  font-weight: bold;
-  margin-right: 40%;
-}
-
-.modal__form_chooseCountry {
-  float: left;
-  margin-top: 20px;
-}
-
-.modal__form_yourCountry {
-  font-size: 12px;
-  font-family: "Arial";
-  color: #282828;
-  font-weight: bold;
-  line-height: 1.2;
-  text-align: right;
-  padding-left: 20px;
-}
-
-.modal__form_countries {
-  list-style: none;
-  margin: 12px 0;
-}
-
-.modal__form_countries li {
-  display: inline-block;
-  float: left;
-  clear: left;
-  padding: 4px 84px 4px 20px;
-}
-
-.modal__form_russia, .modal__form_france, .modal__form_germany, .modal__form_china {
-  font-size: 12px;
-  font-family: "Arial";
-  color: #282828;
-  line-height: 1.2;
-  cursor: pointer;
-}
-
-.modal__form_russia:hover {
-  background: #f0f0f0;
-}
-
-.modal__form_france:hover {
-  background: #f0f0f0;
-}
-
-.modal__form_germany:hover {
-  background: #f0f0f0;
-}
-
-.modal__form_china:hover {
-  background: #f0f0f0;
-}
-
-#callback {
-  float: left;
-  margin-top: 20px;
-}
-
-#callback__login, #callback__phone, #callback__mail {
-  font-size: 12px;
-  font-family: "Arial";
-  color: #282828;
-  font-weight: bold;
-  line-height: 1.2;
-  text-align: right;
-  float: left;
-  margin-bottom: 10px;
-}
-
-#callback__phone, #callback__mail {
-  clear: left;
-}
-
-input {
-  border-width: 1px;
-  border-color: #e5e5e5;
-  border-style: solid;
-  width: 141px;
-  height: 25px;
-  padding-left: 7px;
-  float: left;
-  clear: left;
-  margin-bottom: 20px;
-}
+Backtrace:
+D:\lyaksay.github.io\works\retroauto\sass\main.sass:48
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/lexer.rb:231:in `expected!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:761:in `assert_done'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:69:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:228:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script.rb:27:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:1177:in `parse_script'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:749:in `parse_property'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:708:in `parse_property_or_rule'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:667:in `parse_line'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:540:in `build_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:559:in `block in append_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `append_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:549:in `block in build_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:542:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:542:in `build_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:559:in `block in append_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:558:in `append_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:417:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"11px\": expected expression (e.g. 1px, bold), was \";\"\A         on line 48 of D:\lyaksay.github.io\works\retroauto\sass\main.sass\A \A 43: 	padding-left: 20px\A 44: 	display: inline-block\A 45: \A 46: .item__list_product-country\A 47: 	padding-bottom: 8px\A 48: 	font-size: 11px;\A 49: 	color: rgb(147, 139, 139);\A 50: 	line-height: 1.2;\A 51: \A 52: .item__list_product-country:hover\A 53: 	color: #282828"; }
