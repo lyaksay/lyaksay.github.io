@@ -1,7 +1,7 @@
 
 .heading {
 	font-family: "AktivGrotesk-Regular";
-	margin: 33px auto;
+	margin: 24px auto;
 	color: #414a51;
 	text-align: center;
 	text-transform: uppercase;
@@ -62,7 +62,7 @@
 
 @media only screen and (max-width : 1024px) {
 	.wrapper__blog {
-		margin: 20px auto !important;
+		margin: 20px auto;
 		width: 100%;
 	}
 	.blog {
