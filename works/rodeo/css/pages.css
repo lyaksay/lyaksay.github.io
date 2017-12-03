@@ -279,9 +279,13 @@
   .wrapper__table {
     border: none;
   }
-
+}
+@media only screen and (max-width: 375px) {
   .close-block {
-    display: none;
+    display: inline-block;
+    position: absolute;
+    right: 2px;
+    top: 2px;
   }
 }
 @media only screen and (max-width: 320px) {
@@ -293,13 +297,6 @@
 
   .dtrm__header {
     padding: 20px 10px;
-  }
-
-  .close-block {
-    display: inline-block;
-    position: absolute;
-    right: 2px;
-    top: 2px;
   }
 
   .dtrm__sizes, .dtrm__sizes-jeans {
@@ -317,6 +314,13 @@
 @media only screen and (max-width: 425px) {
   .dtrm {
     max-width: 100%;
+  }
+
+  .close-block {
+    display: inline-block;
+    position: absolute;
+    right: 8px;
+    top: 8px;
   }
 }
 .measurements__jeans {
