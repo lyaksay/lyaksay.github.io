@@ -5,3 +5,20 @@
 	font-weight: normal;
 	font-style: normal;
 }
+
+@font-face {
+	font-family: "Ubuntu";
+	src: url('..//fonts/Ubuntu.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "UbuntuLight";
+	src: url("../fonts/UbuntuLight/UbuntuLight.eot");
+	src: url("../fonts/UbuntuLight/UbuntuLight.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/UbuntuLight/UbuntuLight.woff") format("woff"),
+	url("../fonts/UbuntuLight/UbuntuLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
