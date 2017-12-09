@@ -466,6 +466,11 @@ $main_table_border: 1px solid #8f8f8f;
 	border-bottom: 1px dotted rgb(251, 120, 94);
 }
 
+.measurements__sizes-title_main {
+	font-weight: bold;
+}
+
+
 .main__sizes-title {
 	margin-bottom: 29px;
 }
@@ -493,22 +498,36 @@ $main_table_border: 1px solid #8f8f8f;
 .man__measurements-pic_main {
 	border-bottom: 1px solid  #ddd;
 	margin: 0;
-	padding-bottom: 107px;
+	padding-bottom: 99px;
+	padding-top: 80px;
+}
+
+.woman__measurements-pic_main {
+	border-bottom: 1px solid  #ddd;
+	margin: 0;
+	padding-bottom: 76px;
 	padding-top: 80px;
 }
 
 @media only screen and (max-width : 1024px) {
-	.man__measurements-pic_main {
-		padding-bottom: 249px;
-	}
+	
 	.measurements__borders {
 		border-right: none;
 	}
+
+	.woman__measurements-pic_main {
+		padding-bottom: 123px ;
+	}
+
+
 }
 
 @media only screen and (max-width : 1197px) {
 	.man__measurements-pic_main {
-		padding-bottom: 249px;
+		padding-bottom: 118px;
+	}
+	.woman__measurements-pic_main {
+		padding-bottom: 123px;
 	}
 }
 
@@ -536,4 +555,8 @@ $main_table_border: 1px solid #8f8f8f;
 
 .table__title-mainWomen {
 	width: 18% !important;
+}
+
+.measurements__shoulders-main {
+	padding-bottom: 19px;
 }
