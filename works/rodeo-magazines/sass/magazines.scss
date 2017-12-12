@@ -1,0 +1,64 @@
+/*
+**
+**  STATIC PAGES STYLES
+**
+*/
+
+/* faq */
+.quest__block{
+	padding:0;
+}
+.faq_request{
+	padding: 15px 15px 8px;
+	cursor:pointer;
+}
+.faq_request p{
+	font-weight:bold;
+	font-size:18px;
+}
+.faq_response{
+	padding: 10px 15px;
+}
+
+
+/* kak-podshit-dzhinsy */
+.podshit img{
+	margin-bottom:15px;
+	margin-top:15px;
+	box-shadow: 0 0 5px rgba(220, 221, 222, 1);
+
+}
+
+/* uhod-za-odezhdoj */
+.icons__uhod{
+	padding:15px;
+}
+
+.i__row p{
+	padding: 8px 8px 8px 50px;
+	background-image: url(/files/uploads/uhod/i_test.png);
+	background-position: left center;
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+.breadcrumb__previous_page {
+  font-size: 12px;
+  font-family: "Arial";
+  color: rgb(128, 128, 128);
+  line-height: 1.667;
+  text-align: left;
+  float: right;
+  text-transform: uppercase;
+  margin-right: 15px;
+  padding-top: 3px;
+  border-bottom: 1px dotted rgba(0,0,0,0.3);
+}
+
+
