@@ -273,4 +273,8 @@
   .mobile__pag {
     display: none;
   }
+
+  .blog__content {
+    margin-top: 40px;
+  }
 }
