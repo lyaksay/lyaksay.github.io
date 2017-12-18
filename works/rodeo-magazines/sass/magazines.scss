@@ -46,7 +46,7 @@
 
 
 
-
+$active-color: #f13232;
 
 .breadcrumb__previous_page {
   font-size: 12px;
@@ -61,4 +61,246 @@
   border-bottom: 1px dotted rgba(0,0,0,0.3);
 }
 
+.main__heading-aboutClothes {
+	text-align: center;
+	border: none !important;
+	padding-bottom: 0;
+}
 
+.header__aboutClothes {
+	.dotes {
+		margin: 0 auto;
+		display: block;
+	}
+	.nav__aboutClothes {
+		margin: 25px auto;
+		text-align: center;
+
+	}
+}
+
+.heading__aboutClothes {
+	font-size: 16px;
+	font-family: "Arial";
+	color: rgb(69, 69, 69);
+	line-height: 1.563;
+	text-align: center;
+	margin-right: 27px;
+	margin-left: 27px;
+}
+
+.heading__aboutClothes-active {
+	color: $active-color;
+}
+
+@media only screen and (max-width : 765px) {
+	.delimiter {
+		display: none;
+	}
+
+	.heading__aboutClothes {
+		margin-right: 7.5px;
+		margin-left: 7.5px;
+	}
+}
+
+
+@media only screen and (max-width : 320px) {
+	.heading__aboutClothes {
+		margin-right: 2.5px;
+		margin-left: 2.5px;
+		font-size: 15px;
+		text-align: left;
+	}
+
+	.main__heading-aboutClothes {
+		font-size: 17px;
+	}
+
+	.nav__aboutClothes {
+		margin: 15px auto !important;
+	}
+}
+
+.content__aboutClothes {
+	margin-right: 2%;
+	.blog {
+		margin-bottom: 40px;
+	}
+}
+
+
+
+
+.blog__icon {
+    float: left;
+    margin-right: 15px;
+    height: 47px;
+    width: 47px;
+}
+
+
+.blog__date {
+	font-size: 14px;
+	display: inline-block;
+	font-family: "Arial";
+	color: #404040;
+	vertical-align: super;
+	line-height: 0;
+}
+
+.blog__heading {
+	font-weight: bold;
+	margin-top: 6px;
+	margin-bottom: 11px;
+}
+
+.blog__text {
+	padding-left: 62px;
+	margin-bottom: 0;
+	line-height: 1.5;
+}
+
+.blog__moreInfo {
+	margin-left: 62px;
+}
+
+.dotes {
+	margin: 35px auto;
+	display: block;
+}
+
+.blog__moreInfo, .interesting__moreInfo {
+	color: $active-color;
+	text-decoration: underline !important;
+}
+
+
+
+.interesting {
+	h5 {
+		font-weight: bold;
+	}
+}
+
+
+
+.interesting__main-heading {
+	margin-top: 0;
+}
+
+@media only screen and (max-width : 768px) {
+	.interesting__main-heading {
+		margin-top: 50px;
+	}
+}
+
+
+
+.interesting__heading {
+	margin-top: 40px;
+}
+
+.interesting__main-heading, .interesting__heading {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom: 1px dotted #454545;
+	display: inline-block;
+}
+
+
+.interesting_pic {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 22px;
+}
+
+.interesting_text {
+	margin: 0;
+}
+
+.blog__content-interesting {
+	margin-top: 10px;
+
+}
+
+.dotes__interesting {
+	margin: 22px auto;
+	display: block;
+}
+
+
+.articles__btn {
+  background: #5380e6;
+  width: 119px;
+  height: 42px;
+  color: #fff;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  &:hover {
+  	background: #eef1f8;
+  	color: #1c2427;
+  	transition: 0.4s;
+  }
+}
+
+.showMore {
+	width: 100%;
+	height: 81px;
+	background-color: #f5f7f7;
+	border: 2px solid #e5e5e5;
+	color: rgba(0, 0, 0, 0.6);
+	padding-left: 26%;
+}
+
+.pagination__magazine li{
+	cursor: pointer;
+	color: rgba(0, 0, 0, 0.6);
+	a {
+		color: rgba(0, 0, 0, 0.6);
+	}
+}
+
+.pagination__magazine {
+	float: left;
+}
+
+.pagination__magazine-right {
+	float: right;
+	li:last-child a{
+		margin-right: 0;
+	}
+}
+
+.nav__pages {
+	float: left;
+	padding-right: 20px;
+	vertical-align: middle;
+	display: inline-block;
+	padding-top: 6px;
+	font-size: 13px;
+
+}
+
+
+.footer__line {
+	border-bottom: 2px solid #e5e5e5;
+}
+
+
+@media only screen and (max-width : 320px) {
+	.pagination__magazine {
+		float: none;
+	}
+
+	.pagination__magazine-right {
+		float: left;
+	}
+
+	.mobile__pag {
+		display: none;
+	}
+
+}
