@@ -189,6 +189,13 @@ $active-color: #f13232;
 	margin-top: 0;
 }
 
+
+@media only screen and (max-width : 1024px) {
+	.laptop__pag {
+		display: none;
+	}
+}
+
 @media only screen and (max-width : 768px) {
 	.interesting__main-heading {
 		margin-top: 50px;
@@ -290,13 +297,15 @@ $active-color: #f13232;
 }
 
 
+@media only screen and (max-width : 425px) {
+	.pagination__magazine-right {
+		float: left;
+	}
+}
+
 @media only screen and (max-width : 320px) {
 	.pagination__magazine {
 		float: none;
-	}
-
-	.pagination__magazine-right {
-		float: left;
 	}
 
 	.mobile__pag {
