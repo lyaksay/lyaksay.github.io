@@ -302,6 +302,11 @@
   }
 }
 /*----------------------PROMO-PAGE---------*/
+.promo {
+  background: url("..//about_company/img/background.png") no-repeat;
+  background-position: 100% -100%;
+}
+
 .topline__promo {
   margin-top: 32px;
   min-height: 363px;
@@ -309,7 +314,12 @@
 .topline__promo .topline__promo-logo {
   float: left;
 }
-.topline__promo .topline__promo-mainHeading {
+.topline__promo .topline__promo-image {
+  -webkit-box-shadow: 0px 0px 31px 10px rgba(230, 230, 230, 0.72);
+          box-shadow: 0px 0px 31px 10px rgba(230, 230, 230, 0.72);
+}
+
+.topline__promo-mainHeading {
   font-size: 30px;
   font-family: "Arial";
   color: #454545;
@@ -317,6 +327,65 @@
   margin: 42px 0 0 18px;
   display: inline-block;
 }
-.topline__promo img {
-  margin-right: 0 !important;
+
+.clearfix {
+  display: table;
+  clear: both;
+}
+
+.topline__promo-descr {
+  float: left;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .topline__promo-image {
+    margin: 25px auto !important;
+  }
+
+  .topline__promo .topline__promo-descr:last-child {
+    margin-bottom: 25px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .topline__promo-mainHeading {
+    margin: 42px 0 0 0 !important;
+  }
+}
+/*------------------content----------------------*/
+.content__promo {
+  margin-top: 51px;
+}
+
+.content__promo-advantages {
+  font-size: 16px;
+  font-family: "Arial";
+  color: #454545;
+  line-height: 1.875;
+  text-align: left;
+}
+
+.content__promo .topline__promo-logo {
+  margin-left: 61px;
+}
+
+ol {
+  counter-reset: myCounter;
+  padding: 0;
+}
+ol li {
+  list-style: none;
+}
+ol li:before {
+  counter-increment: myCounter;
+  content: counter(myCounter);
+  color: white;
+  background: #f24848;
+  display: inline-block;
+  text-align: center;
+  margin: 5px 18px;
+  line-height: 28px;
+  width: 28px;
+  height: 28px;
 }
