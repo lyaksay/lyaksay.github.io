@@ -509,8 +509,8 @@ $active-color: #f13232;
     border: 1px solid #ed4747;
     background-color: #ed4747;
     color: #fff;
-    :hover {
-
+    &:hover {
+		cursor: pointer;
     }
     span {
     	transform: rotate(45deg);

@@ -447,6 +447,9 @@
   background-color: #ed4747;
   color: #fff;
 }
+.promo__carousel-arrowLeft:hover, .promo__carousel-arrowRight:hover {
+  cursor: pointer;
+}
 .promo__carousel-arrowLeft span, .promo__carousel-arrowRight span {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
