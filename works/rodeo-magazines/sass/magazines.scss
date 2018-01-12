@@ -530,12 +530,83 @@ $active-color: #f13232;
 ----------------------------*/
 
 .contacts {
+	&__header {
+		margin-bottom: 38px;
+	}
 	&__heading {
 		margin: 5px 0 20px;
 		padding-bottom: 30px;
 		border-bottom: 1px solid #e5e5e5;
 	}
 	&__block {
-		
+		width: 47.5%;
+		border: 3px solid #e5e5e5;
+		float: left;
+		margin-bottom: 5%;
+	}
+	&__icon {
+		margin: 14%;
+		margin-right: 0;
+		float: left;
+	}
+	&__block-descr {
+		float: right;
+		margin-right: 15.7%;
+		margin-top: 9.6%;
+
+	}
+	&__block-heading {
+		font-size: 16px;
+		font-family: "Arial";
+		color: rgb(66, 66, 66);
+		font-weight: bold;
+		line-height: 1.563;
+		margin-bottom: 32px;
+	}
+	&__mail__rodeo {
+		text-decoration: underline !important;
+	}
+
+}
+
+.contacts__block-descr_message {
+	margin-right: 20.7%;
+}
+
+.contacts__block-phone {
+	margin-right: 5%;
+}
+
+@media only screen and (max-width : 1023px) {
+	.contacts__block {
+		width: 100%;
 	}
 }
+
+@media only screen and (max-width : 500px) {
+	.contacts__block-descr {
+		margin-right: 13.7%;
+		margin-top: 6%;
+	}
+
+	.contacts__block-descr_message {
+		    margin-right: 20.7%;
+	}
+
+	.contacts__icon {
+		margin: 7%;
+	}
+}
+
+@media only screen and (max-width: 425px)  {
+	.contacts__icon {
+		margin: 5%;
+	}
+
+	.contacts__block-descr, .contacts__block-descr_message {
+		float: left;
+		margin: 5% 6%;
+	}
+}
+
+
