@@ -553,3 +553,13 @@
     font-size: 14px;
   }
 }
+/*---------------------------
+---------CLOTHING_CARE-PAGE-------
+----------------------------*/
+.care__heading {
+  color: #303030;
+  line-height: 1.786;
+  padding: 20px 0 18px;
+  border-top: 1px solid #ddd;
+  margin: 16px 0 0;
+}
