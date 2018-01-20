@@ -439,11 +439,18 @@
 					<h3 class="">Уход за одеждой</h3>
 					<div class="container">
 						<div class="row">
-
 							<div class="col-md-12 list-group quests">
-								<p class="care__heading">Красивая и качественная одежда нуждается в правильном уходе, тогда она будет долго сохранять свой внешний вид и потребительские свойства.</p>
-								<div class="list-group-item quest__block">
-									<div href="#dj" class="faq_request" data-toggle="collapse"><p>Джинсовая одежда</p>
+								<p class="care__heading">Красивая и качественная одежда нуждается в правильном уходе, тогда она будет долго сохранять свой <br> внешний вид и потребительские свойства.</p>
+								<div class="list__group-item_care quest__block">
+									<div href="#dj" class="heading__toggle" data-toggle="collapse">
+										<div data-target class="circle-plus closed ">
+											<div class="circle">
+												<div class="horizontal"></div>
+												<div class="vertical"></div>
+											</div>
+										</div>
+										<p>Джинсовая одежда 
+										</p>
 									</div>
 									<div id="dj" class="collapse faq_response">
 										<ol>
@@ -462,8 +469,15 @@
 										</ul>
 									</div>
 								</div>
-								<div class="list-group-item quest__block">
-									<div href="#tk" class="care__toggle" data-toggle="collapse"><p>Трикотажные изделия</p>
+								<div class="list__group-item_care quest__block">
+									<div href="#tk" class="heading__toggle" data-toggle="collapse">
+										<div class="circle-plus closed">
+											<div class="circle">
+												<div class="horizontal"></div>
+												<div class="vertical"></div>
+											</div>
+										</div>
+										<p>Трикотажные изделия</p>
 									</div>
 									<div id="tk" class="collapse faq_response">
 										<ol>
@@ -477,9 +491,17 @@
 										</ol>
 									</div>
 								</div>
-								<div class="list-group-item quest__block">
-									<div href="#vo" class="faq_request" data-toggle="collapse"><p>Верхняя одежда</p></div>
-									<div id="vo" class="collapse faq_response"><p>Уход за верхней одеждой с наполнителем из гусиного пуха:</p>
+								<div class="list__group-item_care quest__block">
+									<div href="#vo" class="heading__toggle" data-toggle="collapse">
+										<div class="circle-plus closed">
+											<div class="circle">
+												<div class="horizontal"></div>
+												<div class="vertical"></div>
+											</div>
+										</div>
+										<p>Верхняя одежда</p></div>
+									<div id="vo" class="collapse faq_response">
+										<p>Уход за верхней одеждой с наполнителем из гусиного пуха:</p>
 										<ol>
 											<li><p>Старайтесь хранить пуховые изделия в расправленном виде - это увеличит время эксплуатации пуха.</p></li>
 											<li><p>Нельзя хранить пуховые изделия влажными, в сжатом виде даже несколько дней, так как пух является органическим веществом и может<br />сгнить.</p></li>
@@ -627,8 +649,15 @@
 	
 	<script src ="design/rodeo/js/scripts.js" type="text/javascript"></script>
 	
-	
-	 
+	<script type="text/javascript">
+
+
+		$('.collapse , .circle-plus').on('click', function(){
+			$(this).toggleClass('opened');
+		})
+
+	</script> 
+
 
 	
 	
