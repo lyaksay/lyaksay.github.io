@@ -651,9 +651,15 @@
 	
 	<script type="text/javascript">	
 		
-		    $('.heading__toggle').on('click', function(){
+		$('.heading__toggle').on('click', function(){
+			$(this).toggleClass('opened');
+		});
+
+		$('.heading__toggle').on('dblclick', function(){
 			$(this).toggleClass('opened');
 		})
+
+
 
 
 
