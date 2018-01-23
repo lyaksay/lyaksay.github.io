@@ -839,30 +839,8 @@ $active-color: #f13232;
 }
 
 
-@media only screen and (max-width: 690px)  {
-	.care__icon {
-		margin-bottom: 55px;
-	}
 
-	.icons__uhod {
-		
-	}	
-}
 
-@media only screen and (max-width: 620px) {
-	.care__icon {
-		width: 100%;
-		float: left;
-		margin: 20px auto;
-	}
-
-	.icons__uhod {
-		padding-bottom: 0;
-		padding-top: 0 !important;
-		margin-top: 0  !important;
-		margin-bottom: 0 !important ;
-	}
-}
 
 
 
@@ -890,6 +868,33 @@ $active-color: #f13232;
 	}
 }
 
+
+@media only screen and (max-width: 690px)  {
+	.care__icon {
+		margin-bottom: 55px;
+	}
+
+	.icons__uhod {
+		
+	}	
+}
+
+
+
+@media only screen and (max-width: 620px) {
+	.care__icon {
+		width: 100%;
+		float: left;
+		margin: 20px auto;
+	}
+
+	.icons__uhod {
+		padding-bottom: 0;
+		padding-top: 0 !important;
+		margin-top: 0  !important;
+		margin-bottom: 0 !important ;
+	}
+}
 
 
 

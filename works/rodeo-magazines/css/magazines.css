@@ -756,25 +756,6 @@
     padding-bottom: 15px;
   }
 }
-@media only screen and (max-width: 690px) {
-  .care__icon {
-    margin-bottom: 55px;
-  }
-}
-@media only screen and (max-width: 620px) {
-  .care__icon {
-    width: 100%;
-    float: left;
-    margin: 20px auto;
-  }
-
-  .icons__uhod {
-    padding-bottom: 0;
-    padding-top: 0 !important;
-    margin-top: 0  !important;
-    margin-bottom: 0 !important;
-  }
-}
 @media only screen and (max-width: 1196px) {
   .icons__uhod {
     padding-bottom: 30px;
@@ -796,6 +777,25 @@
   .icons__uhod {
     padding-bottom: 25px;
     padding-top: 5px;
+  }
+}
+@media only screen and (max-width: 690px) {
+  .care__icon {
+    margin-bottom: 55px;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .care__icon {
+    width: 100%;
+    float: left;
+    margin: 20px auto;
+  }
+
+  .icons__uhod {
+    padding-bottom: 0;
+    padding-top: 0 !important;
+    margin-top: 0  !important;
+    margin-bottom: 0 !important;
   }
 }
 .icon-1 {
