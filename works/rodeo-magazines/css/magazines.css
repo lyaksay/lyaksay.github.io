@@ -763,6 +763,7 @@
 
   .icons__uhod {
     margin-top: 35px !important;
+    padding-top: 25px !important;
   }
 }
 @media only screen and (max-width: 1196px) {
