@@ -760,10 +760,19 @@
   .care__icon {
     margin-bottom: 55px;
   }
+}
+@media only screen and (max-width: 620px) {
+  .care__icon {
+    width: 100%;
+    float: left;
+    margin: 20px auto;
+  }
 
   .icons__uhod {
-    margin-top: 35px !important;
-    margin-bottom: 25px !important;
+    padding-bottom: 0;
+    padding-top: 0 !important;
+    margin-top: 0  !important;
+    margin-bottom: 0 !important;
   }
 }
 @media only screen and (max-width: 1196px) {
@@ -787,18 +796,6 @@
   .icons__uhod {
     padding-bottom: 25px;
     padding-top: 5px;
-  }
-}
-@media only screen and (max-width: 620px) {
-  .care__icon {
-    width: 100%;
-    float: left;
-    margin: 20px auto;
-  }
-
-  .icons__uhod {
-    padding-bottom: 0;
-    padding-top: 0;
   }
 }
 .icon-1 {
