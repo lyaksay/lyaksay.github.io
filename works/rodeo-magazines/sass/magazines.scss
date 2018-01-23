@@ -806,7 +806,10 @@ $active-color: #f13232;
 	float: left;
 	position: relative;
 	margin-bottom: 12.5px;
-	margin-top: 12.5px;	
+	margin-top: 12.5px;
+	&:last-child {
+		margin-right: 0;
+	}
 }
 
 .icons {
@@ -836,6 +839,23 @@ $active-color: #f13232;
 }
 
 
+@media only screen and (max-width: 690px)  {
+	.care__icon {
+		margin-bottom: 55px;
+	}
+
+	.icons__uhod {
+		margin-top: 35px !important;
+	}	
+}
+
+
+@media only screen and (max-width: 1196px) {
+	.icons__uhod {
+		padding-bottom: 30px;
+	}
+}
+
 
 @media only screen and (max-width: 992px)  {
 	.care__icon {
@@ -849,7 +869,8 @@ $active-color: #f13232;
 		margin: -13px 8px 8px 16px !important;
 	}
 	.icons__uhod {
-		padding-bottom: 15px;
+		padding-bottom: 25px;
+		padding-top: 5px;
 	}
 }
 

@@ -727,6 +727,9 @@
   margin-bottom: 12.5px;
   margin-top: 12.5px;
 }
+.care__icon:last-child {
+  margin-right: 0;
+}
 
 .icons {
   background-image: url("..//clothing_care/img/sprites.png");
@@ -753,6 +756,20 @@
     padding-bottom: 15px;
   }
 }
+@media only screen and (max-width: 690px) {
+  .care__icon {
+    margin-bottom: 55px;
+  }
+
+  .icons__uhod {
+    margin-top: 35px !important;
+  }
+}
+@media only screen and (max-width: 1196px) {
+  .icons__uhod {
+    padding-bottom: 30px;
+  }
+}
 @media only screen and (max-width: 992px) {
   .care__icon {
     margin-bottom: 25px;
@@ -767,7 +784,8 @@
   }
 
   .icons__uhod {
-    padding-bottom: 15px;
+    padding-bottom: 25px;
+    padding-top: 5px;
   }
 }
 @media only screen and (max-width: 620px) {
