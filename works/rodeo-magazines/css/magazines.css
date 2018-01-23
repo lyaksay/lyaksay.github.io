@@ -748,6 +748,10 @@
   .descr_3rows {
     margin: -13px 8px 8px 16px !important;
   }
+
+  .icons__uhod {
+    padding-bottom: 15px;
+  }
 }
 @media only screen and (max-width: 620px) {
   .care__icon {
