@@ -499,7 +499,7 @@
   margin-bottom: 32px;
 }
 .contacts__mail__rodeo {
-  text-decoration: underline !important;
+  border-bottom: 1px solid;
 }
 
 .contacts__block-descr_message {
@@ -798,9 +798,9 @@
 
   .icons__uhod {
     padding-bottom: 0;
-    padding-top: 0 !important;
-    margin-top: 0  !important;
-    margin-bottom: 0 !important;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
 .icon-1 {

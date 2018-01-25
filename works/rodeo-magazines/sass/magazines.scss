@@ -563,7 +563,7 @@ $active-color: #f13232;
 		margin-bottom: 32px;
 	}
 	&__mail__rodeo {
-		text-decoration: underline !important;
+		border-bottom: 1px solid;
 	}
 
 }
@@ -896,9 +896,9 @@ $active-color: #f13232;
 
 	.icons__uhod {
 		padding-bottom: 0;
-		padding-top: 0 !important;
-		margin-top: 0  !important;
-		margin-bottom: 0 !important ;
+		padding-top: 0 ;
+		margin-top: 0  ;
+		margin-bottom: 0  ;
 	}
 }
 
