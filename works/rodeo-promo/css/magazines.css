@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 **
 **  STATIC PAGES STYLES
@@ -405,10 +406,6 @@
   padding: 0;
 }
 
-.promo__carousel-item_1, .promo__carousel-item_2 {
-  position: absolute;
-}
-
 .promo__carousel-item_1 {
   top: 27px;
   left: 5px;
@@ -422,7 +419,6 @@
 .promo__carousel-item-main {
   position: relative;
   display: block;
-  left: 13%;
   top: 160px;
   z-index: 1;
 }
@@ -462,3 +458,5 @@
 .promo__carousel-arrowLeft {
   padding: 11px 14px 9px 16px;
 }
+
+/*тест-----*/

@@ -478,9 +478,9 @@
 
 			<div class="row">
 				<div class="content__promo">
-					<div class="col-md-5">
-
+					<div class="col-md-6 col-sm-12">
 						
+												
 							<ul class="promo__carousel">
 								<li class="promo__carousel-item promo__carousel-item-main"  >
 									<img  src="img/cowboy.jpg" alt="">
@@ -506,10 +506,10 @@
 								width="10px" height="17px">
 								<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
 								d="M1.745,16.432 C1.637,16.544 1.502,16.600 1.353,16.600 C1.205,16.600 1.070,16.544 0.962,16.432 C0.746,16.209 0.746,15.846 0.962,15.622 L7.849,8.500 L0.962,1.377 C0.746,1.154 0.746,0.791 0.962,0.567 C1.178,0.344 1.529,0.344 1.745,0.567 L9.037,8.095 C9.253,8.318 9.253,8.681 9.037,8.905 L1.745,16.432 Z"/>
-							</svg></div>						
+							</svg></div>					
 					</div>
 
-					<div class="col-md-7">
+					<div class="col-md-6 col-sm-12">
 						<img class="topline__promo-logo" src="img/logo-2.png" alt="">
 						<h1 class="topline__promo-mainHeading">Преимущества</h1>
 						<ol class="content__promo-advantages">
@@ -621,43 +621,16 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/evil-icons/1.9.0/evil-icons.min.css"> <script src="https://cdn.jsdelivr.net/evil-icons/1.9.0/evil-icons.min.js"></script> <link rel="stylesheet" href="design/rodeo/css/slider-filt.css"> 
 
 
-<script>
+	<script>
 		// Сюдsа свои скрипты на JS
+  // Заменяем параграф в #myDiv1 новым параграфом
 
-		$(document).ready(function() {
-			var leftUIEl = $('.promo__carousel-arrowLeft');
-			var rightUIEl = $('.promo__carousel-arrowRight');
-
-			leftUIEl.click(function() {
-			});
-
-			rightUIEl.click(function() {
-			});
-
-		});
+  $('.promo__carousel-item-main').not(':first').hide();
+  $('.promo__carousel-arrowLeft').click(function(){ $('.promo__carousel-item-main').replaceWith('.promo__carousel-item_1');});
 
 
-		$(document).ready(function() {
-			var leftUIEl = $('.promo__carousel-arrowLeft');
-			var rightUIEl = $('.promo__carousel-arrowRight');
-			var elementsList = $('.promo__carousel');
 
-			var pixelsOffset = 375;
-			var currentLeftValue = 20;
-
-			leftUIEl.click(function() {
-				currentLeftValue += 375;
-				elementsList.animate({ left : currentLeftValue + "px"}, 500);
-			});
-
-			rightUIEl.click(function() {
-				currentLeftValue -= 375;
-				elementsList.animate({ left : currentLeftValue + "px"}, 500);
-			});
-
-		});
-		
-
+  // Заменяем параграф в #myDiv2 горизонтальной линией
 
 	</script>
 
