@@ -771,6 +771,10 @@
     margin-bottom: 25px;
   }
 
+  .descr_2rows {
+    margin: -7px 8px 8px 16px !important;
+  }
+
   .descr_3rows {
     margin: -13px 8px 8px 16px !important;
   }
