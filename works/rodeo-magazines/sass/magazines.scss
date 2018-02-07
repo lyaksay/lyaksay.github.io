@@ -636,7 +636,11 @@ $active-color: #f13232;
 /*---------------------------
 ---------CLOTHING_CARE-PAGE-------
 ----------------------------*/
-
+.head__clothing {
+	h1 {
+		font-size: 24px;
+	}
+}
 
 .care__heading {
 	color: rgb(48, 48, 48);

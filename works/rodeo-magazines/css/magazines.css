@@ -561,6 +561,10 @@
 /*---------------------------
 ---------CLOTHING_CARE-PAGE-------
 ----------------------------*/
+.head__clothing h1 {
+  font-size: 24px;
+}
+
 .care__heading {
   color: #303030;
   line-height: 1.786;
