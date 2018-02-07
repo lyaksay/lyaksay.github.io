@@ -370,13 +370,14 @@ $active-color: #f13232;
 	}
 }
 
-.topline__promo-mainHeading {
+.topline__promo h1 {
 	font-size: 30px;
 	font-family: "Arial";
 	color: #454545;
 	line-height: 0.833;
 	margin: 42px 0 0 18px;
-	display: inline-block;	
+	display: inline-block;
+
 }
 
 .clearfix {
@@ -403,7 +404,7 @@ $active-color: #f13232;
 }
 
 @media only screen and (max-width : 320px) {
-	.topline__promo-mainHeading {
+	.topline__promo h1 {
 		margin: 42px 0 0 0 !important;
 	}
 	
@@ -427,8 +428,19 @@ $active-color: #f13232;
 
 .content__promo {
 	.topline__promo-logo {
-		margin-left: 61px;
+		margin-left: 36px;
+		float: left;
 	}
+	h1 {
+		font-size: 30px;
+		font-family: "Arial";
+		color: rgb(69, 69, 69);
+		line-height: 0.833;
+		text-align: left;	
+		float: left;
+		margin-top: 42px;
+	}
+
 }
 
 
@@ -437,10 +449,11 @@ $active-color: #f13232;
 	padding: 0;
 	margin-top: 15px;
 
-	.advantages-item{
+	.advantages-item, .advantages-item1{
 		list-style: none;
 		position: relative;
 		margin-bottom: 45px;
+		margin-left: 45px;
 	}
 	li:before {
 		counter-increment: myCounter;
@@ -449,7 +462,6 @@ $active-color: #f13232;
 		background: #f24848;
 		display: inline-block;
 		text-align: center;
-		margin: 15px -45px;
 		line-height: 28px;
 		width: 28px;
 		height: 28px;
@@ -458,49 +470,36 @@ $active-color: #f13232;
 
 }
 
+.content__promo-advantages .advantages-item::before {
+	margin: 15px -45px;
+}
+
+
+
+.content__promo-advantages .advantages-item1::before {
+	margin: 28px -45px;
+}
+ 
 
  
-.promo__carousel{    
-    list-style: none;
-    width: 100%;
-    padding: 0;
-}
- 
-.promo__carousel-item_1, .promo__carousel-item_2{
-  
-}
 
 .promo__carousel-item_1 {
-	top: 27px;
-	left: 5px;
+	
 }
 
 .promo__carousel-item_2 {
-	top: 354px;
-	left: 5px;
 }
-
 
 .promo__carousel-item-main {
-	position: relative;
-	display: block;
-	top: 160px;
-	z-index: 1;
-	img {
-		border: 3px solid #ed4747;
-	}
-}
-
-.promo__carousel-item-main img {
-    width: 72%;
-    height: 277px;
+	border: 3px solid #ed4747;
+	height: 220px;
 
 }
- 
-.promo__carousel-item_1 img,  
-.promo__carousel-item_2 img {
-    width: 333px;
+
+.promo__carousel-item_1,   
+.promo__carousel-item_2 {
     height: 220px;
+    width: 333px;
 }
 
 .promo__carousel-arrowLeft, .promo__carousel-arrowRight {
@@ -524,6 +523,12 @@ $active-color: #f13232;
 	padding: 11px 14px 9px 16px;
 }
 
-
 /*тест-----*/
 
+#carousel .cloud9-item, #buttons button {
+  cursor: pointer;
+}
+
+#carousel {
+	height: 524px;
+}

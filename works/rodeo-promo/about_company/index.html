@@ -24,7 +24,8 @@
 	<link rel="stylesheet" href="..//css/magazines.css">
 
 
-	<script type="text/javascript" src="https://yastatic.net/jquery/2.0.3/jquery.min.js"></script> 
+	<script type="text/javascript" src="https://yastatic.net/jquery/2.0.3/jquery.min.js"></script>
+	<script type="text/javascript" src="carousel/jquery.cloud9carousel.js"></script>
 	
 </head>
 <body>
@@ -451,8 +452,8 @@
 		<div class="row">
 			<div class="topline__promo">
 				<div class="col-md-7">
-					<img class="topline__promo-logo" src="img/logo.png" alt="">
-					<h1 class="topline__promo-mainHeading"><span class="heading__aboutClothes-active" >О</span> Компании</h1>
+				<img class="topline__promo-logo" src="img/logo.png" alt="">
+					<h1 ><span class="heading__aboutClothes-active" >О</span> Компании</h1>
 					<div class="clearfix"></div>
 
 					<p class="topline__promo-descr"><strong>Компания Rodeo-Jeans</strong> открыла <strong>интернет-магазин Rodeo.Moda</strong> для <strong>online торговли</strong> товарами 
@@ -469,7 +470,7 @@
 						предлагаем своим покупателям?!</p>
 					</div>
 
-					<div class="col-md-5">
+					<div class="col-md-5 col-sm-12">
 						<img class="topline__promo-image img-responsive" src="img/cowboy.jpg" alt="">
 					</div>
 				</div>
@@ -478,47 +479,51 @@
 
 			<div class="row">
 				<div class="content__promo">
-					<div class="col-md-6 col-sm-12">
+					<div class="col-md-5 col-sm-12">
 						
 												
-							<ul class="promo__carousel">
-								<li class="promo__carousel-item promo__carousel-item-main"  >
-									<img  src="img/cowboy.jpg" alt="">
-								</li>
-								<li class="promo__carousel-item promo__carousel-item_1">
-									<img  src="img/carousel-pic.jpg" alt="">	
-								</li>
-								<li class="promo__carousel-item promo__carousel-item_2">
-									<img  src="img/carousel-pic1.jpg" alt="">
-								</li>
-							</ul>
-							<div class="promo__carousel-arrowLeft">
+						<div id="carousel">
+							<img class="cloud9-item promo__carousel-item-main" src="img/cowboy.jpg" alt="Item #1">
+							<img class="cloud9-item promo__carousel-item_1" src="img/carousel-pic.jpg" alt="Item #2">
+							<img class="cloud9-item promo__carousel-item_1" src="img/carousel-pic1.jpg" alt="Item #3">
+
+						</div>
+
+						<div id="buttons">
+							<button class="left promo__carousel-arrowLeft">
 								<svg 
 								xmlns="http://www.w3.org/2000/svg"
 								xmlns:xlink="http://www.w3.org/1999/xlink"
 								width="10px" height="17px">
 								<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
 								d="M8.255,16.432 C8.363,16.544 8.498,16.600 8.647,16.600 C8.795,16.600 8.930,16.544 9.038,16.432 C9.254,16.209 9.254,15.846 9.038,15.622 L2.151,8.500 L9.038,1.377 C9.254,1.154 9.254,0.791 9.038,0.567 C8.822,0.344 8.471,0.344 8.255,0.567 L0.963,8.095 C0.747,8.318 0.747,8.681 0.963,8.905 L8.255,16.432 Z"/>
-							</svg></div>
-							<div class="promo__carousel-arrowRight"><svg 
+							</svg>
+							</button>
+							<button class="right promo__carousel-arrowRight">
+								<svg 
 								xmlns="http://www.w3.org/2000/svg"
 								xmlns:xlink="http://www.w3.org/1999/xlink"
 								width="10px" height="17px">
 								<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
 								d="M1.745,16.432 C1.637,16.544 1.502,16.600 1.353,16.600 C1.205,16.600 1.070,16.544 0.962,16.432 C0.746,16.209 0.746,15.846 0.962,15.622 L7.849,8.500 L0.962,1.377 C0.746,1.154 0.746,0.791 0.962,0.567 C1.178,0.344 1.529,0.344 1.745,0.567 L9.037,8.095 C9.253,8.318 9.253,8.681 9.037,8.905 L1.745,16.432 Z"/>
-							</svg></div>					
+							</svg>
+							</button>
+						</div>
+
 					</div>
 
-					<div class="col-md-6 col-sm-12">
+
+					<div class="col-md-7 col-sm-12">
 						<img class="topline__promo-logo" src="img/logo-2.png" alt="">
-						<h1 class="topline__promo-mainHeading">Преимущества</h1>
+						<h1 >Преимущества</h1>
+						<div class="clearfix"></div>
 						<ol class="content__promo-advantages">
 
 							<li class="advantages-item">Формирование хорошего джинсового ассортимента профессионалами, лично 
 							осуществляющими отбор товара различных брендов.</li>
 							<li class="advantages-item">Мы знаем, какие джинсы хотят покупать, потому что изучаем спрос в розничной сети, 
 							общаясь непосредственно с розничными покупателями.</li>
-							<li class="advantages-item">С Вашими заявками работают непосредственно менеджеры торгового зала, которые Вам
+							<li class="advantages-item1">С Вашими заявками работают непосредственно менеджеры торгового зала, которые Вам
 								звонят, уточняют детали и знают все тонкости и нюансы каждого товара, специфику
 							подбора нужного размера.</li>
 							<li class="advantages-item">Качество обслуживания, внимание и чуткость нашего персонала являются приоритетными
@@ -623,15 +628,12 @@
 
 	<script>
 		// Сюдsа свои скрипты на JS
-  // Заменяем параграф в #myDiv1 новым параграфом
-
-  $('.promo__carousel-item-main').not(':first').hide();
-  $('.promo__carousel-arrowLeft').click(function(){ $('.promo__carousel-item-main').replaceWith('.promo__carousel-item_1');});
-
-
-
-  // Заменяем параграф в #myDiv2 горизонтальной линией
-
+		$("#carousel").Cloud9Carousel( {
+			buttonLeft: $("#buttons > .left"),
+			buttonRight: $("#buttons > .right"),
+			
+			bringToFront: true
+		} );
 	</script>
 
 	
