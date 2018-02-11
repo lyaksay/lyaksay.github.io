@@ -1157,3 +1157,13 @@
   font-size: 14px;
   border-bottom-width: 1px;
 }
+
+@media only screen and (max-width: 320px) {
+  .heading__toggle p {
+    font-size: 17px;
+  }
+
+  .collapse__link {
+    float: left;
+  }
+}
