@@ -153,7 +153,7 @@
     }
 
     if( options.mirror ) {
-      this.itemOptions.mirror = $.extend( { gap: 2 }, options.mirror );
+      this.itemOptions.mirror = $.extend( { gap: 3 }, options.mirror );
     }
 
     $container.css( { position: 'relative', overflow: 'hidden' } );
