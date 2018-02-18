@@ -1141,12 +1141,12 @@
 }
 
 .collapse__link-hide {
-  margin-top: 33px;
-  margin-right: 10px;
+  margin-top: -83px;
+  margin-right: 40px;
 }
 
 .table__print {
-  margin: 33px auto;
+  margin: 33px 0;
 }
 
 .underline__red {
@@ -1164,4 +1164,7 @@
   .collapse__link {
     float: left;
   }
+}
+.blank__heading {
+  font-size: 17px;
 }
