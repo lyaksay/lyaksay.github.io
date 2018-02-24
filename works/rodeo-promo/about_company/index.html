@@ -473,7 +473,7 @@
 							</div>
 
 							<div class="col-md-5 col-sm-12">
-								<img class="topline__promo-image img-responsive" src="img/cowboy.jpg" alt="">
+								<img class="topline__promo-image img-responsive" src="img/cowboy1.jpg" alt="">
 						</div>
 					</div>
 				</div>
@@ -484,15 +484,12 @@
 					<div class="col-md-6 col-sm-12">
 						<div class="slider-wrap">
 							<div id="card-slider" class="slider">
-
-
-
 								<div class="slider-item slider-item-1">
 									
 								</div>
 
 								
-								<div class="slider-item itemMain slider-item-2 ">
+								<div class="slider-item slider-item-2 ">
 									
 								</div>
 								
@@ -649,22 +646,23 @@
 
 
 <script>
-	
-	var cards = $('#card-slider .slider-item ').toArray();
-	startAnim(cards);
 
+	
+	
+	var cards = $('#card-slider .slider-item ').toArray();	
+	startAnim(cards);
 	function startAnim(array){
 		if(array.length >= 4 ) {
 			TweenMax.fromTo(array[0], 0.5, {x: 0, y: 0, opacity:0.75},
-			 {x:0, y: -120, opacity:0, zIndex: 0, delay:0.03,  ease: Cubic.easeInOut, onComplete: sortArray(array)});
+			 {x:0, y: -120, opacity:0, zIndex: 0, delay:0.06,  ease: Cubic.easeInOut, onComplete: sortArray(array)});
 
-			TweenMax.fromTo(array[1], 0.5, {x: 79, y: 125, opacity:1, zIndex: 1}, {x:0, y: -15, opacity:1, zIndex: 0, ease: Cubic.easeInOut});
+			TweenMax.fromTo(array[1], 0.5, {x: 79, y: 125, opacity:1, zIndex: 1}, {x:0, y: -15, opacity:0.75, zIndex: 0, ease: Cubic.easeInOut});
 						
 			TweenMax.to(array[2], 0.5, {bezier:[{x:0, y:250}, {x:65, y:200},
-			 {x:79, y:162.5}] , boxShadow: '0px 0px 29px 0px rgba(237, 71, 71, 0.43)', zIndex: 1,  opacity: 1, ease: Cubic.easeInOut});
+			 {x:103, y:162.5}] ,  zIndex: 1,  opacity: 1, ease: Cubic.easeInOut});
 
 			TweenMax.fromTo(array[3], 0.5, {x:0, y:400, opacity: 0, zIndex: 0},
-			 {x:0, y:337, opacity: 1, zIndex: 0, ease: Cubic.easeInOut}, );
+			 {x:0, y:337, opacity: 0.75, zIndex: 0, ease: Cubic.easeInOut}, );
 		} else {
 			$('#card-slider').append('<p>Sorry, carousel should contain more than 3 slides</p>')
 		}
@@ -675,9 +673,31 @@
 		var delay = setTimeout(function(){
 			var firstElem = array.shift();
 			array.push(firstElem);
-			return startAnim(array); 
-		},3000)
+		},0)
 	}
+
+
+	$(".promo__carousel-arrowRight , .promo__carousel-arrowLeft").mouseup(function(){
+
+		startAnim(cards);
+		function startAnim(array){
+			if(array.length >= 4 ) {
+				TweenMax.fromTo(array[0], 0.5, {x: 0, y: 0, opacity:0.75},
+					{x:0, y: -120, opacity:0, zIndex: 0, delay:0.06,  ease: Cubic.easeInOut, onComplete: sortArray(array)});
+
+				TweenMax.fromTo(array[1], 0.5, {x: 79, y: 125, opacity:1, zIndex: 1}, {x:0, y: -15, opacity:0.75, zIndex: 0, ease: Cubic.easeInOut});
+
+				TweenMax.to(array[2], 0.5, {bezier:[{x:0, y:250}, {x:65, y:200},
+					{x:103, y:162.5}] ,  zIndex: 1,  opacity: 1, ease: Cubic.easeInOut});
+
+				TweenMax.fromTo(array[3], 0.5, {x:0, y:400, opacity: 0, zIndex: 0},
+					{x:0, y:337, opacity: 0.75, zIndex: 0, ease: Cubic.easeInOut}, );
+			} else {
+				$('#card-slider').append('<p>Sorry, carousel should contain more than 3 slides</p>')
+			}
+		}
+	});
+
 
 	
 

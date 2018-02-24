@@ -489,7 +489,7 @@ $active-color: #f13232;
     border: 1px solid #ed4747;
     background-color: #ed4747;
     color: #fff;
-    
+    position: absolute;
     &:hover {
 		cursor: pointer;
     }
@@ -499,22 +499,18 @@ $active-color: #f13232;
 }
 
 .promo__carousel-arrowRight {
-	padding: 11px 14px 9px 16px;
+	padding: 11px 14px 9px 17px;
+	top: 87px;
+	right: 123px;
 }
 
 .promo__carousel-arrowLeft {
-	padding: 11px 14px 9px 16px;
+	padding: 11px 17px 7px 16px;
+	top: 513px;
+	right: 123px
 }
 
 /*тест-----*/
-
-#carousel .cloud9-item, #buttons button {
-  cursor: pointer;
-}
-
-#carousel {
-	height: 524px;
-}
 
 
 
@@ -535,13 +531,13 @@ $active-color: #f13232;
 }
 
  /* .slider-itemMain {
-	box-shadow: 0px 0px 29px 0px rgba(237, 71, 71, 0.43);
+	
 	border: 3px solid #ed4747;
 } */
 
 .slider-item {
 	width: 407px;
-	height: 265px;
+	height: 278px;
 	padding: 20px 0 25px 30px;
 	display: flex;
 	justify-content: flex-start;
@@ -552,6 +548,7 @@ $active-color: #f13232;
 	top: 0px;
 	background-size: cover;
 	background-repeat: no-repeat;
+	box-shadow: 0px 0px 29px 0px rgba(237, 71, 71, 0.43);
 }
 
 
@@ -569,7 +566,6 @@ $active-color: #f13232;
 .slider-item-3 {
 	background-image: url(' ..//about_company/img/cowboy1.jpg');
 
-	
 }
 
 .slider-item-4 {
