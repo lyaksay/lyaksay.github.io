@@ -650,7 +650,9 @@
 	
 	
 	var cards = $('#card-slider .slider-item ').toArray();	
+
 	startAnim(cards);
+
 	function startAnim(array){
 		if(array.length >= 4 ) {
 			TweenMax.fromTo(array[0], 0.5, {x: 0, y: 0, opacity:0.75},
@@ -677,26 +679,53 @@
 	}
 
 
-	$(".promo__carousel-arrowRight , .promo__carousel-arrowLeft").mouseup(function(){
+	$(".promo__carousel-arrowRight").mouseup(function(){
 
 		startAnim(cards);
 		function startAnim(array){
 			if(array.length >= 4 ) {
-				TweenMax.fromTo(array[0], 0.5, {x: 0, y: 0, opacity:0.75},
-					{x:0, y: -120, opacity:0, zIndex: 0, delay:0.06,  ease: Cubic.easeInOut, onComplete: sortArray(array)});
+				TweenMax.fromTo(array[0], 0.5, {x: 0, y: 420, opacity:0.75},
+					{x:0, y: 570, opacity:0, zIndex: 0, delay:0.06,  ease: Cubic.easeInOut, onComplete: sortArray(array)});
 
-				TweenMax.fromTo(array[1], 0.5, {x: 79, y: 125, opacity:1, zIndex: 1}, {x:0, y: -15, opacity:0.75, zIndex: 0, ease: Cubic.easeInOut});
+				TweenMax.fromTo(array[1], 0.5, {x: 79, y: 162.5, opacity:1, zIndex: 1}, 
+					{x:0, y: 337, opacity:0.75, zIndex: 0, ease: Cubic.easeInOut});
 
-				TweenMax.to(array[2], 0.5, {bezier:[{x:0, y:250}, {x:65, y:200},
+				TweenMax.to(array[2], 0.5, {bezier:[{x:0, y:125}, {x:65, y:140},
 					{x:103, y:162.5}] ,  zIndex: 1,  opacity: 1, ease: Cubic.easeInOut});
 
-				TweenMax.fromTo(array[3], 0.5, {x:0, y:400, opacity: 0, zIndex: 0},
-					{x:0, y:337, opacity: 0.75, zIndex: 0, ease: Cubic.easeInOut}, );
+				TweenMax.fromTo(array[3], 0.5, {x:0, y:0, opacity: 0, zIndex: 0},
+					{x:0, y: -15, opacity: 0.75, zIndex: 0, ease: Cubic.easeInOut}, );
 			} else {
 				$('#card-slider').append('<p>Sorry, carousel should contain more than 3 slides</p>')
 			}
 		}
 	});
+
+	$(".promo__carousel-arrowLeft").mouseup(function(){
+		
+
+		startAnim(cards);
+		function startAnim(array){
+			if(array.length >= 4 ) {
+
+				/*1*/ TweenMax.fromTo(array[0], 0.5, {x: 0, y: 0, opacity:0.75},
+					{x:0, y: -120, opacity:0, zIndex: 0, delay:0.06,  ease: Cubic.easeInOut, onComplete: sortArray(array)});
+
+				/*2*/TweenMax.fromTo(array[1], 0.5, {x: 79, y: 125, opacity:1, zIndex: 1},
+				 {x:0, y: -15, opacity:0.75, zIndex: 0, ease: Cubic.easeInOut});
+
+				/*3*/TweenMax.to(array[2], 0.5, {bezier:[{x:0, y:250}, {x:65, y:200},
+					{x:103, y:162.5}] ,  zIndex: 1,  opacity: 1, ease: Cubic.easeInOut});
+
+				/*4*/TweenMax.fromTo(array[3], 0.5, {x:0, y:400, opacity: 0, zIndex: 0},
+					{x:0, y:337, opacity: 0.75, zIndex: 0, ease: Cubic.easeInOut}, );
+
+			} else {
+				$('#card-slider').append('<p>Sorry, carousel should contain more than 3 slides</p>')
+			}
+		}
+	});
+
 
 
 	
