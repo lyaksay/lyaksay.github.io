@@ -450,37 +450,33 @@
 				</div>
 		
 
-				<div class="row">
+				<div class="row topline__promo">
+					<div class="col-md-7">
+						<img class="topline__promo-logo" src="img/logo.png" alt="">
+						<h1 ><span class="heading__aboutClothes-active" >О</span> Компании</h1>
+						<div class="clearfix"></div>
 
-					<div class="topline__promo">
-						<div class="col-md-7">
-							<img class="topline__promo-logo" src="img/logo.png" alt="">
-							<h1 ><span class="heading__aboutClothes-active" >О</span> Компании</h1>
-							<div class="clearfix"></div>
+						<p class="topline__promo-descr"><strong>Компания Rodeo-Jeans</strong> открыла <strong>интернет-магазин Rodeo.Moda</strong> для <strong>online торговли</strong> товарами 
+							Компании на всю Россию, используя современные подходы и технологии.
+						</p>
 
-							<p class="topline__promo-descr"><strong>Компания Rodeo-Jeans</strong> открыла <strong>интернет-магазин Rodeo.Moda</strong> для <strong>online торговли</strong> товарами 
-								Компании на всю Россию, используя современные подходы и технологии.
-							</p>
+						<p class="topline__promo-descr"><strong>Более <span class="heading__aboutClothes-active">25 лет</span> Компания Rodeo-Jeans</strong> занималась и продолжает заниматься <strong>offline торговлей</strong> 
+							джинсовой одеждой через <strong>сеть магазинов «Rodeo-Jeans».</strong></p>
 
-							<p class="topline__promo-descr"><strong>Более <span class="heading__aboutClothes-active">25 лет</span> Компания Rodeo-Jeans</strong> занималась и продолжает заниматься <strong>offline торговлей</strong> 
-								джинсовой одеждой через <strong>сеть магазинов «Rodeo-Jeans».</strong></p>
+							<p class="topline__promo-descr">Кроме джинсовой одежды в ассортименте присутствует все, что с джинсами сочетается: трикотаж, 
+							рубашки, ремни, шапки, верхняя одежда.</p>
 
-								<p class="topline__promo-descr">Кроме джинсовой одежды в ассортименте присутствует все, что с джинсами сочетается: трикотаж, 
-								рубашки, ремни, шапки, верхняя одежда.</p>
+							<p class="topline__promo-descr">Мы не являемся супер гигантами электронной торговли, так что же такого уникального мы 
+							предлагаем своим покупателям?!</p>
+						</div>
 
-								<p class="topline__promo-descr">Мы не являемся супер гигантами электронной торговли, так что же такого уникального мы 
-								предлагаем своим покупателям?!</p>
-							</div>
-
-							<div class="col-md-5 col-sm-12">
-								<img class="topline__promo-image img-responsive" src="img/cowboy1.jpg" alt="">
+						<div class="col-md-5 col-sm-12">
+							<img class="topline__promo-image img-responsive" src="img/cowboy1.jpg" alt="">
 						</div>
 					</div>
-				</div>
 
 
-			<div class="row">
-				<div class="content__promo">
+			<div class="row content__promo">
 					<div class="col-md-6 visible-lg visible-md">
 						<div class="slider-wrap">
 							<div id="card-slider" class="slider">
@@ -501,15 +497,10 @@
 								<div class="slider-item slider-item-4">
 								
 								</div>
-
-
-
 							</div>
 						</div>  
 						
 												
-						
-
 						<div id="buttons">
 							<button class="left promo__carousel-arrowLeft">
 								<svg 
@@ -533,7 +524,6 @@
 
 					</div>
 
-
 					<div class="col-md-6 col-sm-12">
 						<img class="topline__promo-logo" src="img/logo-2.png" alt="">
 						<h1 >Преимущества</h1>
@@ -553,8 +543,6 @@
 							сделает процесс покупки на нашем сайте более приятным.</li>
 						</ol>
 					</div>
-				</div>
-				
 				</div>
 			</div>
 		</div>
@@ -685,7 +673,7 @@
 		function startAnim(array){
 			if(array.length >= 4 ) {
 				TweenMax.fromTo(array[0], 0.5, {x: 0, y: 337, opacity:0.75},
-					{x:0, y: 570, opacity:0, zIndex: 0, delay:0.06,  ease: Cubic.easeInOut, onComplete: sortArray(array)});
+					{x:0, y: 400, opacity:0, zIndex: 0, delay:0.06,  ease: Cubic.easeInOut, onComplete: sortArray(array)});
 
 				TweenMax.fromTo(array[1], 0.5, {x: 79, y: 162.5, opacity:1, zIndex: 1}, 
 					{x:0, y: 337, opacity:0.75, zIndex: 0, ease: Cubic.easeInOut});

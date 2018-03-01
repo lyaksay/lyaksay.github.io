@@ -343,9 +343,9 @@
   margin-bottom: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   .topline__promo-image {
-    margin: 25px auto !important;
+    margin: 25px auto;
   }
 
   .topline__promo .topline__promo-descr:last-child {
@@ -373,7 +373,6 @@
 }
 
 .content__promo .topline__promo-logo {
-  margin-left: 36px;
   float: left;
 }
 .content__promo h1 {
@@ -386,6 +385,11 @@
   margin-top: 42px;
 }
 
+@media only screen and (min-width: 992px) {
+  .content__promo .topline__promo-logo {
+    margin-left: 45px;
+  }
+}
 .content__promo-advantages {
   counter-reset: myCounter;
   padding: 0;
@@ -463,10 +467,6 @@
      object-fit: cover;
 }
 
- /* .slider-itemMain {
-	
-	border: 3px solid #ed4747;
-} */
 .slider-item {
   width: 407px;
   height: 278px;
@@ -502,4 +502,10 @@
 
 .slider-item-4 {
   background-image: url("..//about_company/img/carousel-pic1.jpg  ");
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1198px) {
+  .content__promo-advantages {
+    padding-left: 40px;
+  }
 }
