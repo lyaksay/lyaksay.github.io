@@ -430,16 +430,15 @@ $active-color: #f13232;
 	.topline__promo-logo {
 		float: left;
 	}
-	h1 {
+	h2 {
 		font-size: 30px;
 		font-family: "Arial";
 		color: rgb(69, 69, 69);
-		line-height: 0.833;
 		text-align: left;	
-		float: left;
 		margin-top: 42px;
+		font-weight: normal;
+		float: left;
 	}
-
 }
 
 @media only screen and (min-width : 992px) {
@@ -580,5 +579,38 @@ $active-color: #f13232;
 @media only screen and (min-width: 992px) and (max-width: 1198px) {
 	.content__promo-advantages {
 		padding-left: 40px;
+	}
+
+	.promo__carousel-arrowLeft, .promo__carousel-arrowRight {
+		right: -5px;
+	}
+}
+
+
+.promo__services {
+	.logo-3 {
+		float: left;
+		margin-right: 9px;
+	}
+	h2 {
+		font-size: 30px;
+		font-family: "Arial";
+		color: rgb(69, 69, 69);
+		text-align: left;	
+		padding-top: 33px;
+		font-weight: normal;
+	}
+}
+
+
+@media only screen and (max-width: 425px) {
+	.promo__services {
+		.logo-3 {
+			float: none;
+		}
+		h2 {
+			padding-top:0;
+			font-size: 24px;
+		}
 	}
 }
