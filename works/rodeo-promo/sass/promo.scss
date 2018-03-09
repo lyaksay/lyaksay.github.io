@@ -354,7 +354,7 @@ $active-color: #f13232;
 
 .promo {
 	background: url('..//about_company/img/background.png') no-repeat;
-	background-position: 100% 85%;
+	background-position: 100% 28%;
 
 }
 
@@ -587,7 +587,7 @@ $active-color: #f13232;
 }
 
 
-.promo__services {
+.promo__section {
 	.logo-3 {
 		float: left;
 		margin-right: 9px;
@@ -604,13 +604,107 @@ $active-color: #f13232;
 
 
 @media only screen and (max-width: 425px) {
-	.promo__services {
+	.promo__section {
 		.logo-3 {
 			float: none;
 		}
 		h2 {
 			padding-top:0;
 			font-size: 24px;
+		}
+	}
+}
+
+
+/*--------bottom service-block----------
+---------------------------------*/
+
+.promo__services {
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+
+.promo__overlay-block   {
+	position:relative;
+	width:250px;
+	float: left;
+	margin: 56px 0 35px 10%;
+	&:first-child {
+		margin-left:0;
+	}
+}
+
+
+.service__main-block {
+	height: 250px;
+	width: 250px;
+	z-index: 10;
+	border: 8px solid #8a8a8a;
+}
+
+.service__secondary-block  {
+	height: 250px;
+	width: 250px;
+	z-index: 5 ;
+	background: #f24848;
+	position: absolute;
+	bottom:54px;
+	right: 54px;
+	padding-left: 15px;
+	padding-right: 15px;
+
+	.service__heading {
+		font-size: 16px;
+		color: #fff;
+		padding-top: 20px;
+		margin: 0;
+		text-align: left;
+		font-weight: normal;
+
+	}
+	img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 45px;
+		margin: auto;
+	}
+	p {
+		font-size: 13px;
+		color: #fff;
+		padding-top: 120px;
+		text-align: left;
+	}
+}
+
+
+@media only screen and (max-width: 1024px) {
+	.promo__overlay-block   {
+		margin-left: 5%;
+
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.promo__overlay-block   {
+		margin-left: 30%;
+		&:first-child {
+			margin-left:30%;
+		}
+	}
+}
+
+
+@media only screen and (max-width: 425px) {
+	.service__main-block, .service__secondary-block {
+		height: 245px;
+		width: 245px;
+	}
+	.promo__overlay-block   {
+		margin-left: 15%;
+		&:first-child {
+			margin-left:15%;
 		}
 	}
 }
