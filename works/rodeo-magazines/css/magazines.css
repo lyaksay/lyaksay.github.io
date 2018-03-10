@@ -1168,3 +1168,13 @@
 .blank__heading {
   font-size: 17px;
 }
+
+/*________PUBLIC-OFFER________
+______________________________*/
+.head__clothing-repayment p {
+  margin-top: 33px;
+}
+
+.collapse__grey {
+  color: #888;
+}
