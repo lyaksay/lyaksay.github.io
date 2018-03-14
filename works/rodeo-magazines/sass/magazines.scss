@@ -1288,8 +1288,10 @@ ______________________________*/
 	font-weight: bold;
 	color: rgba(0,0,0,0.5);
 }
+
 .public__offer h1, .public__offer b, .public__offer p b, .public__offer li b, .public__offer ul b {
-	color: #000;}
+	color: #000;
+}
 
 .public__offer  p.repayment__toggle{
 	font-size: 20px;
@@ -1306,6 +1308,56 @@ ______________________________*/
 	}	
 }
 
-.collapse__grey {
-	color: #888;
+.heading__toggle-collapsed {
+	border-bottom: 1px dotted #bbb;
+	margin-bottom: 10px;
+	p {
+		padding:0px;
+	}
+}
+
+/*класс для toggle */
+.heading__toggle-collapsed_opened {
+	border-bottom: none;
+	padding-top: 10px;
+	border-top: 1px dotted #bbb ;
+}
+/*класс для toggle-end */
+
+.circle-plus .circle__inserted {
+    position: relative;
+    width: 28px;
+    height: 28px;
+}
+
+.circle-plus .circle__inserted {
+	position: relative;
+	width: 28px;
+	height: 28px;
+
+}
+.circle-plus .circle__inserted .horizontal {
+	position: absolute;
+	background-color: #ccc;
+	width: 16px;
+	height: 2px;
+	left: 79.5%;
+	margin-left: -15px;
+	top: 60%;
+	margin-top: -10.5px;
+}
+.circle-plus .circle__inserted .vertical {
+	position: absolute;
+	background-color: #ccc;
+	width: 2px;
+	height: 16px;
+	left: 60%;
+	margin-left: -2.5px;
+	top: 80%;
+	margin-top: -23px;
+}
+
+.collapsed__text {
+	padding: 10px 0px 10px 45px;
+	border-bottom: 1px dotted #bbb;
 }
