@@ -619,6 +619,10 @@
     margin-left: 15%;
   }
 }
-.card-slider {
-  border: 3px solid black;
+.border__block {
+  border: 3px solid #ed4747;
+  x: 65;
+  y: 200;
+  width: 407px;
+  height: 278px;
 }
