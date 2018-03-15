@@ -619,3 +619,6 @@
     margin-left: 15%;
   }
 }
+.card-slider {
+  border: 3px solid black;
+}
