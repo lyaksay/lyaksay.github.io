@@ -1168,3 +1168,40 @@
 .blank__heading {
   font-size: 17px;
 }
+
+/*________PUBLIC-OFFER________
+______________________________*/
+.public__offer, .public__offer p, .public__offer li, .public__offer ul {
+  font-size: 12px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.public__offer h1, .public__offer b, .public__offer p b, .public__offer li b, .public__offer ul b {
+  color: #000;
+}
+
+.public__offer p.repayment__toggle {
+  font-size: 20px;
+  color: #000;
+}
+
+.public__offer .fsz__bold {
+  font-size: 14px;
+}
+
+.head__clothing-repayment p {
+  margin-top: 33px;
+}
+
+.heading__toggle-collapsed {
+  border-bottom: 1px dotted #bbb;
+  margin-bottom: 10px;
+}
+.heading__toggle-collapsed p {
+  padding: 0px;
+}
+
+.collapsed__text {
+  padding: 5px 0px 5px 45px;
+}
