@@ -467,7 +467,7 @@
 								<div class="slider-item slider-item-4">
 								
 								</div>
-								<div class="border__block border__block-animate">
+								<div class="border__block ">
 									
 								</div>
 							</div>
@@ -688,6 +688,7 @@
 
 
 	$(".promo__carousel-arrowRight").mouseup(function(){
+
 	startAnim(cards);
 		function startAnim(array){
 			if(array.length >= 4 ) {
@@ -710,9 +711,6 @@
 	});
 
 	$(".promo__carousel-arrowLeft").mouseup(function(){
-
-	
-
 		startAnim(cards);
 		function startAnim(array){
 			if(array.length >= 4 ) {
@@ -735,11 +733,9 @@
 		}
 	});
 
-	$(".promo__carousel-arrowLeft").mouseup(function(){
-		if $(".border__block").mouseup(".border__block-animate") {
-			;
-	}
-};
+	$(".promo__carousel-arrowLeft").click(function() {
+		$("border__block").css("border__block-animate");		
+	});
 
 
 

@@ -621,19 +621,13 @@
 }
 .border__block {
   border: 3px solid #ed4747;
+  border-radius: 3px;
   width: 407px;
   height: 281px;
   -webkit-transform: matrix(1, 0, 0, 1, 103, 161.5);
           transform: matrix(1, 0, 0, 1, 103, 161.5);
   z-index: 10;
-  -webkit-animation-duration: 1.7s;
-          animation-duration: 1.7s;
   position: absolute;
-  -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
-  -webkit-animation-delay: 0.6;
-          animation-delay: 0.6;
-  opacity: 1;
 }
 
 @-webkit-keyframes Fade {
