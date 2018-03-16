@@ -718,21 +718,3 @@ $active-color: #f13232;
 	z-index: 10;
 	position: absolute;
 }
-
-@keyframes Fade {
-	0% {
-		opacity: 1;
-	}
-	100% {
-		opacity: 0;
-	}
-}
-
-.border__block-animate {
-	animation-name: Fade;
-	animation-duration: 1s;
-	animation-delay: 2s;
-	animation-iteration-count: 2;
-	animation-timing-function: linear;
-	animation-direction: alternate;
-}

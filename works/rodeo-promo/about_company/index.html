@@ -733,9 +733,24 @@
 		}
 	});
 
-	$(".promo__carousel-arrowLeft").click(function() {
-		$("border__block").css("border__block-animate");		
+
+	$(document).ready(function(){
+		$('.promo__carousel-arrowLeft').click(function() {
+			var border = $(".border__block");
+			border.animate({opacity: '0.2'}, "fast");	
+			border.animate({opacity: '1'}, "fast");
+		});
 	});
+
+	$(document).ready(function(){
+		$('.promo__carousel-arrowRight').click(function() {
+			var border = $(".border__block");
+			border.animate({opacity: '0.2'}, "fast");	
+			border.animate({opacity: '1'}, "fast");
+		});
+	});
+
+
 
 
 
