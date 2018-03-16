@@ -728,6 +728,8 @@
 
 
 	$(".promo__carousel-arrowRight").mouseup(function(){
+		$( ".border__block" ).css( "opacity", "0");
+
 
 		startAnim(cards);
 		function startAnim(array){
@@ -743,6 +745,7 @@
 
 				TweenMax.fromTo(array[3], 0.5, {x:0, y:0, opacity: 0, zIndex: 0},
 					{x:0, y: -15, opacity: 0.75, zIndex: 0, ease: Cubic.easeInOut}, );
+
 			} else {
 				$('#card-slider').append('<p>Sorry, carousel should contain more than 3 slides</p>')
 			}
@@ -750,7 +753,7 @@
 	});
 
 	$(".promo__carousel-arrowLeft").mouseup(function(){
-		
+		$( ".border__block" ).css( "opacity", "1" );
 
 		startAnim(cards);
 		function startAnim(array){

@@ -708,3 +708,15 @@ $active-color: #f13232;
 		}
 	}
 }
+
+.border__block {
+	border: 3px solid #ed4747;
+	width: 407px;
+	height: 281px;
+	transform: matrix(1, 0, 0, 1, 103, 162.5);
+	z-index: 10;
+	position: absolute;
+	transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+	animation-delay: 0.6;
+	opacity: 1;
+}
