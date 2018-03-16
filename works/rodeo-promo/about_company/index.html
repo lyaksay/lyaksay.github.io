@@ -16,6 +16,7 @@
 	<!-- Стили и шрифты -->
 	<link href=" https://rodeo.moda/design/rodeo/css/rodeo.css" rel="stylesheet" type="text/css" media="screen"/>
 	<link href="https://yastatic.net/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="..//css/promo.css">
 	<script type="text/javascript" src="https://yastatic.net/jquery/2.0.3/jquery.min.js"></script>
 </head>
 
@@ -147,9 +148,6 @@
 		<div class="section">
 			<div class="container min_pad">
 				<div class="row">
-
-
-
 					<div class="col-md-3 col-sm-6 col-xs-6">
 						<a href="/">
 							<img src="https://rodeo.moda/design/rodeo/images/logo.png" class="hidden-xs">
@@ -469,7 +467,7 @@
 								<div class="slider-item slider-item-4">
 								
 								</div>
-								<div class="border__block">
+								<div class="border__block border__block-animate">
 									
 								</div>
 							</div>
@@ -652,18 +650,14 @@
 
 <!-- Скриптовое отделение -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
-<script src ="design/rodeo/js/rodeo.js" type="text/javascript"></script>
 
 
 <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700..' rel='stylesheet' type='text/css'> 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/evil-icons/1.9.0/evil-icons.min.css"> <script src="https://cdn.jsdelivr.net/evil-icons/1.9.0/evil-icons.min.js"></script> <link rel="stylesheet" href="design/rodeo/css/slider-filt.css"> 
 
 
 <script>
 
-	
-	
-	var cards = $('#card-slider .slider-item ').toArray();	
+	var cards = $('#card-slider .slider-item').toArray();	
 
 	startAnim(cards);
 
@@ -694,10 +688,7 @@
 
 
 	$(".promo__carousel-arrowRight").mouseup(function(){
-		$( ".border__block" ).css( "opacity", "0");
-
-
-		startAnim(cards);
+	startAnim(cards);
 		function startAnim(array){
 			if(array.length >= 4 ) {
 				TweenMax.fromTo(array[0], 0.5, {x: 0, y: 337, opacity:0.75},
@@ -719,7 +710,8 @@
 	});
 
 	$(".promo__carousel-arrowLeft").mouseup(function(){
-		$( ".border__block" ).css( "opacity", "1" );
+
+	
 
 		startAnim(cards);
 		function startAnim(array){
@@ -743,6 +735,11 @@
 		}
 	});
 
+	$(".promo__carousel-arrowLeft").mouseup(function(){
+		if $(".border__block").mouseup(".border__block-animate") {
+			;
+	}
+};
 
 
 

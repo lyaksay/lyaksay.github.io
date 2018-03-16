@@ -713,10 +713,29 @@ $active-color: #f13232;
 	border: 3px solid #ed4747;
 	width: 407px;
 	height: 281px;
-	transform: matrix(1, 0, 0, 1, 103, 162.5);
+	transform: matrix(1, 0, 0, 1, 103, 161.5);
 	z-index: 10;
+	animation-duration: 1.7s; 
 	position: absolute;
 	transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
 	animation-delay: 0.6;
 	opacity: 1;
+}
+
+@keyframes Fade {
+	0% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+.border__block-animate {
+	animation-name: Fade;
+	animation-duration: 1s;
+	animation-delay: 2s;
+	animation-iteration-count: 2;
+	animation-timing-function: linear;
+	animation-direction: alternate;
 }
