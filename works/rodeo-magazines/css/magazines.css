@@ -1171,13 +1171,21 @@
 
 /*________PUBLIC-OFFER________
 ______________________________*/
-.public__offer, .public__offer p, .public__offer li, .public__offer ul {
+.public__offer,
+.public__offer p,
+.public__offer li,
+.public__offer ul,
+.public__offer ol,
+.public__offer text,
+.public__offer span {
   font-size: 12px;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.5);
 }
 
-.public__offer h1, .public__offer b, .public__offer p b, .public__offer li b, .public__offer ul b {
+.public__offer h1,
+.public__offer b, .public__offer p b,
+.public__offer li b, .public__offer ul b {
   color: #000;
 }
 
@@ -1202,6 +1210,6 @@ ______________________________*/
   padding: 0px;
 }
 
-.collapsed__text {
+.public__offer ul {
   padding: 5px 0px 5px 45px;
 }
