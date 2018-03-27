@@ -1,0 +1,43 @@
+.bonus p, .bonus span {
+  color: rgba(0, 0, 0, 0.5);
+  display: inline-block; }
+
+.bonus .black__text {
+  color: #000; }
+  .bonus .black__text:last-child {
+    margin-bottom: 8px; }
+
+.bonus h2 {
+  font-size: 20px; }
+
+.bonus .green__text {
+  color: #249632; }
+
+.bonus__link-float {
+  float: right; }
+
+.bordered__section {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 25px 0 28px; }
+  .bordered__section img {
+    float: left; }
+  .bordered__section h1 {
+    float: left;
+    display: inline-block;
+    margin: 0px 10px 20px;
+    font-size: 26px; }
+
+.huge__text {
+  font-size: 42px; }
+
+.bonus ul {
+  list-style: none;
+  padding-left: 0;
+  padding-top: 5px; }
+  .bonus ul li {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    padding-left: 16px; }
+  .bonus ul li:nth-child(1) {
+    background-image: url("../img/li_1.png"); }
