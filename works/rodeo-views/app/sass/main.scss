@@ -10,11 +10,15 @@
 			margin-bottom: 8px;
 		}
 	}
-	h3 {
-		font-size: 20px;
-	}
+	
 	.green__text {
 		color: rgb(36, 150, 50);
+	}
+	b {
+		span{
+			font-size: 20px;
+			margin-top: 30px;
+		}
 	}
 }
 
@@ -74,5 +78,11 @@
 	padding: 20px;
 	p {
 		color: #fff;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+	.huge__text {
+		font-size: 33px;
 	}
 }
