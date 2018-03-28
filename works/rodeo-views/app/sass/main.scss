@@ -87,3 +87,32 @@
 		font-size: 33px;
 	}
 }
+
+
+/*------------------------
+-----My-bonus-page--------
+-------------------------*/
+
+.bordered__section-Mybonus {
+	padding: 25px 0 52px;
+}
+
+.my_bonus .my__bonus-list {
+	list-style-type: none;
+	padding-left: 19px;
+	li {
+		color: rgba(0, 0, 0, 0.5);
+		margin-bottom: 7px;
+
+		&:before {
+			background-image: url('../img/bullet.png');
+			content: "";
+			width: 8px;
+			height: 8px;
+			left: -20px;
+			top: 6px;
+			position: absolute;
+			border: none;
+		}
+	}
+}
