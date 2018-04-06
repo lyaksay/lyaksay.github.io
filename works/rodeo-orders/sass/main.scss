@@ -10,14 +10,12 @@
 			margin-bottom: 8px;
 		}
 	}
-	
 	.green__text {
 		color: rgb(36, 150, 50);
 	}
 	b {
 		span{
 			font-size: 20px;
-			
 		}
 	}
 }
@@ -134,30 +132,69 @@
 	}
 }
 
-.my__bonus-page {
-	.my__bonus-page_heading {
-		font-size: 18px;
-		color: #404040;
-		padding-top: 30px;
-		padding-bottom: 25px;
+
+/*------ORDERS-------
+--------------------*/
+
+.orders-page {
+	p, span {
+		color: rgba(0,0,0,0.5);
+		display: inline-block;
+	}
+	.black__text {
+		color: #000;
+		&:last-child {
+			margin-bottom: 8px;
+		}
+	}
+	.green__text {
+		color: rgb(36, 150, 50);
+	}
+	b {
+		span{
+			font-size: 20px;
+		}
 	}
 }
 
-.my__bonus-page {
-	table {
-		width: 100%;
-		border-spacing: 30px 0;
-	}
-	.table__heading-row {
-		border: 2px solid #ddd;
-		margin-bottom: 30px;
-		td {
-			padding: 16px;
+.orders__link-float {
+	float: right;
+}
+
+.ml-20 {
+	margin-bottom: 20px;
+}
+
+.active__orange {
+	border-bottom: 1px dotted #f13232;
+	color: #f13232;
+}
+
+.orders__section {
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 30px;
+	a {
+		margin-right: 18px;
+		margin-left: 18px;
+		&:first-child {
+			margin-left: 0;
 		}
 	}
-	.table__bordered-row {
-		border: 1px solid #ddd;
-		box-shadow: 1px solid #ddd;
+}
+
+@media only screen and (max-width: 375px) {
+	.orders__section {
+		a {
+			margin-right:25px;
+			margin-left: 0px;
+		}
 	}
 
+	.orders__row-header {
+		font-size: 12px;
+	}
+
+	.orders__row {
+		font-size: 12px;
+	}
 }
