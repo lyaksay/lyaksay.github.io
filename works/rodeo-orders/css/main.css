@@ -100,47 +100,23 @@
     padding-top: 35px;
     padding-bottom: 20px; }
 
-/*------ORDERS-------
---------------------*/
-.orders-page p, .orders-page span {
-  color: rgba(0, 0, 0, 0.5);
-  display: inline-block; }
+.my__bonus-page .my__bonus-page_heading {
+  font-size: 18px;
+  color: #404040;
+  padding-top: 30px;
+  padding-bottom: 25px; }
 
-.orders-page .black__text {
-  color: #000; }
-  .orders-page .black__text:last-child {
-    margin-bottom: 8px; }
+.my__bonus-page table {
+  width: 100%;
+  border-spacing: 30px 0; }
 
-.orders-page .green__text {
-  color: #249632; }
+.my__bonus-page .table__heading-row {
+  border: 2px solid #ddd;
+  margin-bottom: 30px; }
+  .my__bonus-page .table__heading-row td {
+    padding: 16px; }
 
-.orders-page b span {
-  font-size: 20px; }
-
-.orders__link-float {
-  float: right; }
-
-.ml-20 {
-  margin-bottom: 20px; }
-
-.active__orange {
-  border-bottom: 1px dotted #f13232;
-  color: #f13232; }
-
-.orders__section {
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 30px; }
-  .orders__section a {
-    margin-right: 18px;
-    margin-left: 18px; }
-    .orders__section a:first-child {
-      margin-left: 0; }
-
-@media only screen and (max-width: 375px) {
-  .orders__section a {
-    margin-right: 25px;
-    margin-left: 0px; }
-  .orders__row-header {
-    font-size: 12px; }
-  .orders__row {
-    font-size: 12px; } }
+.my__bonus-page .table__bordered-row {
+  border: 1px solid #ddd;
+  -webkit-box-shadow: 1px solid #ddd;
+          box-shadow: 1px solid #ddd; }

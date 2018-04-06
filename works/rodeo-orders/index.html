@@ -18,8 +18,9 @@
 	<!-- Стили и шрифты -->
   	<link href=" https://rodeo.moda/design/rodeo/css/vendor.css" rel="stylesheet" type="text/css">
   	<link href=" https://rodeo.moda/design/rodeo/css/rodeo.css" rel="stylesheet" type="text/css" media="screen"/>
-	
-	
+	<link href="https://yastatic.net/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="design/rodeo/css/vendor.css?v=1515382293" rel="stylesheet" type="text/css">
+	<link href="design/rodeo/css/rodeo.css?v=1522259366" rel="stylesheet" type="text/css" media="screen"/>
 	<link rel="stylesheet" href="css/main.css">
 
 
@@ -439,185 +440,56 @@
 				  				<li class="active"><a>Избранное</a></li>
 				  			</ul>
 				  		</div>
-				  		<div class="col-md-12 col-sm-12 orders-page">
-				  			
-				  				<div class="datas__user"> 
-				  					<div class="data__user"><span>Ф.И.О:</span>alex lyulin
-				  					</div>
-				  					<div class="data__user"><span>E-mail:</span>kutuzov24qwerty@gmail.com
-				  					</div>
-				  					<div class="data__user"><span>Тел:</span>
-				  						+7(913) 982-83
-				  					</div> 
-				  				</div>
-				  			
+				  		<div class="col-md-12 bonus__page my__bonus-page">
+				  			<p>Ф.И.О: <span class="black__text">Соколова Инга Геннадьевна</span></p> <br>
+				  			<a class ="bonus__link-float" href="#"><span>Изменить</span></a>
+				  			<p>E-mail: <span class="black__text">rodeo101@mail.ru</span></p> <br>
+				  			<p>Тел: <span class="black__text">+7 (905) 953-83-69</span></p> <br>
 
 				  			<div class="bordered__section bordered__section-Mybonus ">
-				  				<img src="img/orders.png" alt="">
-				  				<h1>Все заказы</h1>
+				  				<img src="img/gift.png" alt="">
+				  				<h1>Мои бонусы</h1>
 				  			</div>
-
-				  			<div class="row">
-				  				<div class="col-md-12">
-				  					<div class="orders__section">
-				  						<a href="#" class="active__orange">ВСЕ ЗАКАЗЫ</a>
-				  						<img class="hidden-xs" src="img/vertical_dotes.png" alt="">
-				  						<a href="#" <b class="black__text">ОТКРЫТЫЕ ЗАКАЗЫ</b></a>
-				  						<img class="hidden-xs" src="img/vertical_dotes.png" alt="">
-				  						<a href="#" <b class="black__text">ЗАКРЫТЫЕ ЗАКАЗЫ</b> </a>
-				  					</div>
-				  				</div>
-				  			</div>
-				  			
-
-				  			<div class="row mb-5">
-				  				<div class="col-md-12">
-				  					<div class="pagination ">
-				  						<ul class="pagination"> 
-				  							<li class="active"><a href="/catalog/zhenschinam">1 <span class="sr-only">(current)</span></a></li>
-				  							<li><a href="/catalog/zhenschinam?page=2">2</a></li>
-				  							<li><a href="/catalog/zhenschinam?page=3">3</a></li>
-				  							<li class="hidden-xs"><a href="/catalog/zhenschinam?page=4">4</a></li> 
-				  							<li class="hidden-xs"><a href="/catalog/zhenschinam?page=5">5</a></li>
-				  							<li class="hidden-xs"><a href="/catalog/zhenschinam?page=6">6</a></li>
-				  							<li><a href="/catalog/zhenschinam?page=7">...</a></li> 
-				  							<li><a href="/catalog/zhenschinam?page=27">27</a></li>
-				  							<li><a href="/catalog/zhenschinam?page=2">вперед→</a></li> 
-				  						</ul> 
-				  					</div>
-				  				</div>
-				  			</div>
-				  			
-				  			
-
-				  			<div class="row">
-				  				<div class="col-md-12">
-				  					<div class="orders"> 
-				  						<div class="orders__rows "> 
-				  							<div class="orders__row orders__row-header">
-				  								<div class="orders__row__num">№ Заказа</div>
-				  								<div class="orders__row__date">Дата заказа</div>
-				  								<div class="orders__row__sum">Сумма заказа<span class="hidden-xs">, &#8381;</span></div>
-				  								<div class="orders__row__pay">Оплата <span class="hidden-xs">|</span> Получение</div> 
-				  								<div class="orders__row__stat">Статус заказа</div> 
-				  							</div>
-				  							<a href="/user/order/e5887de7116ef3e640d664678c5159c9" class="orders__row orders__row ajax_order" o-id="236"> 
-				  								<div class="orders__row__num">236</div> 
-				  								<div class="orders__row__date">04.04.2018</div>
-				  								<div class="orders__row__sum">0.00</div> 
-				  								<div class="orders__row__pay">
-				  									Не оплачен <br> <span class="grey__text">Не получен</span></div>
-				  									<div class="orders__row__stat">В обработке</div> 
-				  							</a>
-				  							<a href="/user/order/e5887de7116ef3e640d664678c5159c9" class="orders__row orders__row ajax_order" o-id="1201"> 
-				  								<div class="orders__row__num">1201</div> 
-				  								<div class="orders__row__date">14.09.2016</div>
-				  								<div class="orders__row__sum">3.990</div> 
-				  								<div class="orders__row__pay">
-				  									Оплачен <br> <span class="grey__text">Получен</span></div>
-				  									<div class="orders__row__stat">Выполнен <span class="hidden-xs">|</span> <b>Закрыт</b></div> 
-				  							</a>
-				  							<a href="/user/order/e5887de7116ef3e640d664678c5159c9" class="orders__row orders__row ajax_order" o-id="236"> 
-				  								<div class="orders__row__num">1032</div> 
-				  								<div class="orders__row__date">29.09.2016</div>
-				  								<div class="orders__row__sum">5.697</div> 
-				  								<div class="orders__row__pay">Оплачен <br> <span class="grey__text">Не получен</span></div>
-				  								<div class="orders__row__stat">Выполнен <span class="hidden-xs">|</span> <b>Закрыт</b></div> 
-				  							</a>
-				  							<a href="/user/order/e5887de7116ef3e640d664678c5159c9" class="orders__row orders__row ajax_order" o-id="236"> 
-				  								<div class="orders__row__num">1396</div> 
-				  								<div class="orders__row__date">10.10.2016</div>
-				  								<div class="orders__row__sum">3.990</div> 
-				  								<div class="orders__row__pay">Не оплачен <br> <span class="grey__text">Не получен</span></div>
-				  								<div class="orders__row__stat">В работе <span class="hidden-xs">|</span> <b class="green__text">Открыт</b></div> 
-				  							</a>
-				  							<a href="/user/order/e5887de7116ef3e640d664678c5159c9" class="orders__row orders__row ajax_order" o-id="236"> 
-				  								<div class="orders__row__num">1396</div> 
-				  								<div class="orders__row__date">10.10.2016</div>
-				  								<div class="orders__row__sum">3.990</div> 
-				  								<div class="orders__row__pay">Не оплачен <br> <span class="grey__text">Не получен</span></div>
-				  								<div class="orders__row__stat">В работе <span class="hidden-xs">|</span> <b class="green__text">Открыт</b></div> 
-				  							</a>
-				  							<a href="/user/order/e5887de7116ef3e640d664678c5159c9" class="orders__row orders__row ajax_order" o-id="236"> 
-				  								<div class="orders__row__num">1396</div> 
-				  								<div class="orders__row__date">10.10.2016</div>
-				  								<div class="orders__row__sum">3.990</div> 
-				  								<div class="orders__row__pay">Не оплачен <br> <span class="grey__text">Не получен</span></div>
-				  								<div class="orders__row__stat">В работе <span class="hidden-xs">|</span> <b class="green__text">Открыт</b></div> 
-				  							</a>
-				  							<a href="/user/order/e5887de7116ef3e640d664678c5159c9" class="orders__row orders__row ajax_order" o-id="236"> 
-				  								<div class="orders__row__num">1396</div> 
-				  								<div class="orders__row__date">10.10.2016</div>
-				  								<div class="orders__row__sum">3.990</div> 
-				  								<div class="orders__row__pay">Не оплачен <br> <span class="grey__text">Не получен</span></div>
-				  								<div class="orders__row__stat">В работе <span class="hidden-xs">|</span> <b class="green__text">Открыт</b></div> 
-				  							</a>
-				  							<a href="/user/order/e5887de7116ef3e640d664678c5159c9" class="orders__row orders__row ajax_order" o-id="236"> 
-				  								<div class="orders__row__num">1396</div> 
-				  								<div class="orders__row__date">10.10.2016</div>
-				  								<div class="orders__row__sum">3.990</div> 
-				  								<div class="orders__row__pay">Не оплачен <br> <span class="grey__text">Не получен</span></div>
-				  								<div class="orders__row__stat">В работе <span class="hidden-xs">|</span> <b class="green__text">Открыт</b></div> 
-				  							</a>
-				  							<a href="/user/order/e5887de7116ef3e640d664678c5159c9" class="orders__row orders__row ajax_order" o-id="236"> 
-				  								<div class="orders__row__num">1396</div> 
-				  								<div class="orders__row__date">10.10.2016</div>
-				  								<div class="orders__row__sum">3.990</div> 
-				  								<div class="orders__row__pay">Не оплачен <br> <span class="grey__text">Не получен</span></div>
-				  								<div class="orders__row__stat">В работе <span class="hidden-xs">|</span> <b class="green__text">Открыт</b></div> 
-				  							</a>
-				  							<a href="/user/order/e5887de7116ef3e640d664678c5159c9" class="orders__row orders__row ajax_order" o-id="236"> 
-				  								<div class="orders__row__num">1396</div> 
-				  								<div class="orders__row__date">10.10.2016</div>
-				  								<div class="orders__row__sum">3.990</div> 
-				  								<div class="orders__row__pay">Не оплачен <br> <span class="grey__text">Не получен</span></div>
-				  								<div class="orders__row__stat">В работе <span class="hidden-xs">|</span> <b class="green__text">Открыт</b></div> 
-				  							</a>
-				  							<a href="/user/order/e5887de7116ef3e640d664678c5159c9" class="orders__row orders__row ajax_order" o-id="236"> 
-				  								<div class="orders__row__num">1396</div> 
-				  								<div class="orders__row__date">10.10.2016</div>
-				  								<div class="orders__row__sum">3.990</div> 
-				  								<div class="orders__row__pay">Не оплачен <br> <span class="grey__text">Не получен</span></div>
-				  								<div class="orders__row__stat">В работе <span class="hidden-xs">|</span> <b class="green__text">Открыт</b></div> 
-				  							</a>
-				  							<a href="/user/order/e5887de7116ef3e640d664678c5159c9" class="orders__row orders__row ajax_order" o-id="236"> 
-				  								<div class="orders__row__num">1396</div> 
-				  								<div class="orders__row__date">10.10.2016</div>
-				  								<div class="orders__row__sum">3.990</div> 
-				  								<div class="orders__row__pay">Не оплачен <br> <span class="grey__text">Не получен</span></div>
-				  								<div class="orders__row__stat">В работе <span class="hidden-xs">|</span> <b class="green__text">Открыт</b></div> 
-				  							</a>
-				  							<a href="/user/order/e5887de7116ef3e640d664678c5159c9" class="orders__row orders__row ajax_order" o-id="236"> 
-				  								<div class="orders__row__num">1396</div> 
-				  								<div class="orders__row__date">10.10.2016</div>
-				  								<div class="orders__row__sum">3.990</div> 
-				  								<div class="orders__row__pay">Не оплачен <br> <span class="grey__text">Не получен</span></div>
-				  								<div class="orders__row__stat">В работе <span class="hidden-xs">|</span> <b class="green__text">Открыт</b></div> 
-				  							</a>
-				  						</div> 
-				  					</div>
-				  				</div>
-				  			</div>
-				  			<div class="row mb-5">
-				  				<div class="col-md-12">
-				  					<div class="pagination ">
-				  						<ul class="pagination"> 
-				  							<li class="active"><a href="/catalog/zhenschinam">1 <span class="sr-only">(current)</span></a></li>
-				  							<li><a href="/catalog/zhenschinam?page=2">2</a></li>
-				  							<li><a href="/catalog/zhenschinam?page=3">3</a></li>
-				  							<li class="hidden-xs"><a href="/catalog/zhenschinam?page=4">4</a></li> 
-				  							<li class="hidden-xs"><a href="/catalog/zhenschinam?page=5">5</a></li>
-				  							<li class="hidden-xs"><a href="/catalog/zhenschinam?page=6">6</a></li>
-				  							<li><a href="/catalog/zhenschinam?page=7">...</a></li> 
-				  							<li><a href="/catalog/zhenschinam?page=27">27</a></li>
-				  							<li><a href="/catalog/zhenschinam?page=2">вперед→</a></li> 
-				  						</ul> 
-				  					</div>
-				  				</div>
-				  			</div>
+							<p>На сайте RODEO.MODA действует накопительная система бонусов, которыми можно рассчитываться за товары, приобретаемые в нашем интернет-магазине.</p> <br> <br>
+							<p><b class="black__text">Бонусы начисляются:</b></p>
+							<ul class="my__bonus-list">
+								<li>При регистрации;</li>
+								<li>В подарок на день рождения;</li>
+								<li>За Ваши отзывы и Ваши фотографии; </li>
+								<li>На все товары после их оплаты;</li>
+							</ul>
+							<p class="black__text">Подробности начисления бонусов на странице
+								<a class="underline" href="#">
+									<b class="black__text ">Бонусы и скидки</b>
+								</a>
+							</p>
+							<hr>
+							<div class="grey__section">
+								<p class="grey__section-text ">
+									<b>Cейчас у Вас накоплено: <span class="green__text">130 бонусов</span></b>
+								</p>
+							</div>
+							<p class="my__bonus-page_heading"><b>Расчет бонусов</b></p>
+							<div class="table-responsive">
+								<table class="table">
+									<tr class="table__heading-row">
+										<td class="black__text">№ п/п</td>
+										<td class="black__text">Дата</td>
+										<td class="black__text">За что начислены или списаны бонусы</td>
+										<td class="black__text">Начислено</td>
+										<td class="black__text">Списано</td>
+									</tr>
+									<tr class="table__bordered-row">
+										<td class="black__text">1.</td>
+										<td>25.07.2016</td>
+										<td>Отзыв о товаре</td>
+										<td><span class="green__text">+50</span> бонусов</td>
+										<td></td>
+								</tr>
+								</table>
+							</div>
+							
 				  		</div>
-
-
 				  	</div>
 
 				  	<div class="row"> 
