@@ -1,4 +1,7 @@
 
+$green__text: rgb(36, 150, 50);
+
+
 .bonus__page {
 	p, span {
 		color: rgba(0,0,0,0.5);
@@ -139,7 +142,6 @@
 .orders-page {
 	p, span {
 		color: rgba(0,0,0,0.5);
-		display: inline-block;
 	}
 	.black__text {
 		color: #000;
@@ -198,3 +200,76 @@
 		font-size: 12px;
 	}
 }
+
+
+/*-----------
+----ORDER-PAGE--
+(DTRM-CLASS)----
+-----------*/
+
+.dtrm .order__completed b{
+	position: relative;	
+	&:before {
+		width: 7px;
+		height: 7px;
+		content: "";
+		position: absolute;
+		background-color: $green__text;
+		border-radius: 50%;
+		left: -19px;
+		top: 5px;
+	}
+}
+
+.order__info, .order__info-result {
+	display: flex;
+	align-items: center;
+	color: #666;
+	cursor: pointer;
+	font-size: 14px;
+	border: 2px solid rgb(247, 247, 247);
+	margin-bottom: 28px;
+	padding: 18px 18px 17px;
+	div {
+		flex: 1;
+		text-align: center;
+	}
+	.order__info-number {
+		text-align: left;
+		flex: 0.1;
+	}
+
+	.order__info-descr {
+		flex: 1.5;
+		.pt-3 {
+			text-align: left;
+		}
+	}
+
+	.red__text {
+		color: rgb(241, 50, 50);
+	}
+
+}
+
+.order__info-result {
+	padding: 5px 17px;
+}
+
+.red__text {
+	color: rgb(241, 50, 50);
+}
+
+.dtrm__footer {
+	background-color: rgb(250, 250, 250);
+	padding: 20px 30px;
+}
+
+
+
+
+
+
+
+
+
