@@ -113,7 +113,8 @@ body {
 
 .info {
   position: fixed;
-  background-color: #edf3dd;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f3fcb0), to(#fff));
+  background: linear-gradient(#f3fcb0, #fff);
   left: 65%;
   top: -1px;
   width: 31%;
@@ -143,22 +144,32 @@ body {
 
 .info__maybach {
   display: block;
+  line-height: 1.7;
+  font-family: "Tahoma";
 }
 
 .info__beetle {
   display: none;
+  line-height: 1.7;
+  font-family: "Tahoma";
 }
 
 .info__vollkswagen {
   display: none;
+  line-height: 1.7;
+  font-family: "Tahoma";
 }
 
 .info__horch {
   display: none;
+  line-height: 1.7;
+  font-family: "Tahoma";
 }
 
 .info__citroen {
   display: none;
+  line-height: 1.7;
+  font-family: "Tahoma";
 }
 
 .horch-btn {
