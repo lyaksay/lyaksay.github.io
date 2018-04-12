@@ -102,18 +102,18 @@
 
 /*------ORDERS-------
 --------------------*/
-.orders-page p, .orders-page span {
+.dtrm--order p, .dtrm--order span {
   color: rgba(0, 0, 0, 0.5); }
 
-.orders-page .black__text {
+.dtrm--order .black__text {
   color: #646464; }
-  .orders-page .black__text:last-child {
+  .dtrm--order .black__text:last-child {
     margin-bottom: 8px; }
 
-.orders-page .green__text {
+.dtrm--order .green__text {
   color: #249632; }
 
-.orders-page b span {
+.dtrm--order b span {
   font-size: 20px; }
 
 .orders__link-float {
