@@ -21,7 +21,6 @@
 	
 	
 	<link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/media.css">
 
 
 	<script type="text/javascript" src="https://yastatic.net/jquery/2.0.3/jquery.min.js"></script>
@@ -441,7 +440,7 @@
 				  			</ul>
 				  		</div>
 
-				  		<div class="col-md-12 col-sm-12 ">
+				  		<div class="col-md-12 col-sm-12 orders-page">
 				  			
 				  				<div class="datas__user"> 
 				  					<div class="data__user"><span>Ф.И.О:</span>alex lyulin
@@ -455,119 +454,158 @@
 				  			
 
 				  			<div class="bordered__section bordered__section-Mybonus ">
-				  				<img class="reviews__image" src="images/reviews-icon.png" alt="">
-				  				<h1>Мои отзывы</h1>
+				  				<img src="img/orders.png" alt="">
+				  				<h1>Все заказы</h1>
 				  			</div>
 
 				  			<div class="row">
 				  				<div class="col-md-12">
-				  					<div class="reviews__section">
-				  						<span>Вы можете оставить свой <b >отзыв о купленном и полученном товаре или интернет-магазине RODEO.MODA и получить 50 бонусов</b> на Ваш счет.
-
-										Разместить отзыв о товаре можно так же в Личном кабинете в
-											разделе <a class="rodeo__link"
-											href="#">Все заказы.</a></span>
+				  					<div class="orders__section">
+				  						<a href="#" class="active__orange">ВСЕ ЗАКАЗЫ</a>
+				  						<img class="hidden-xs" src="img/vertical_dotes.png" alt="">
+				  						<a href="#" <b class="black__text">ОТКРЫТЫЕ ЗАКАЗЫ</b></a>
+				  						<img class="hidden-xs" src="img/vertical_dotes.png" alt="">
+				  						<a href="#" <b class="black__text">ЗАКРЫТЫЕ ЗАКАЗЫ</b> </a>
 				  					</div>
-                                    <div class="reviews__section ">
-				  						<b class="hidden-xs">На данный момент у вас нет отзывов</b>
-                                        <input type="submit" class="review__btn btn btn-lg btn-primary btn-theme" value="Написать отзыв">
-                                    </div>
+				  				</div>
+				  			</div>
+				  			
+
+				  			<div class="row mb-5">
+				  				<div class="col-md-12">
+				  					<div class="pagination ">
+				  						<ul class="pagination"> 
+				  							<li class="active"><a href="/catalog/zhenschinam">1 <span class="sr-only">(current)</span></a></li>
+				  							<li><a href="/catalog/zhenschinam?page=2">2</a></li>
+				  							<li><a href="/catalog/zhenschinam?page=3">3</a></li>
+				  							<li class="hidden-xs"><a href="/catalog/zhenschinam?page=4">4</a></li> 
+				  							<li class="hidden-xs"><a href="/catalog/zhenschinam?page=5">5</a></li>
+				  							<li class="hidden-xs"><a href="/catalog/zhenschinam?page=6">6</a></li>
+				  							<li><a href="/catalog/zhenschinam?page=7">...</a></li> 
+				  							<li><a href="/catalog/zhenschinam?page=27">27</a></li>
+				  							<li><a href="/catalog/zhenschinam?page=2">вперед→</a></li> 
+				  						</ul> 
+				  					</div>
 				  				</div>
 				  			</div>
 
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="review__block">
-                                        <span class="review__date">10.10.2015</span> <br>
-                                        <b class="review__header">Отзыв</b>
-                                        <b class="review__header review__header-min grey__text">Товар:</b>
-                                        <b class="review__header review__header-min">Pantamo Джинсы</b>
-                                        <b class="review__header review__header-min grey__text">Рейтинг бренда Pantamo:</b>
-                                        <img class="review__star" src="images/star.png" alt="">
-                                        <img class="review__star" src="images/star.png" alt="">
-                                        <img class="review__star" src="images/star.png" alt="">
-                                        <img class="review__star" src="images/star.png" alt="">
-                                        <img class="review__star"  src="images/star.png" alt="">
 
-                                        <br>
-                                        <span class="review__body">Цвет, ткань супер! Но так и не смогла уложить воротник, чтобы хоть как-то стало приемлемо для носки. А использовать пальто как накидку (не&nbsp;застегивая) посчитала неприемлимым. Да и в плечах тянет, крой неудачный. В общем, на мой взгляд дизайнер что-то не додумал.</span>
-                                        <img src="images/review-img-1.png" alt="">
-                                        <img src="images/review-img-2.png" alt="">
-                                        <img src="images/review-img-3.png" alt="">
-                                        <img src="images/review-img-1.png" alt="">
-                                        <img src="images/review-img-2.png" alt="">
-                                        <img src="images/review-img-3.png" alt="">
-                                    </div>
+				  			<div class="row">
+				  				<div class="col-md-12">
+				  					<div class="dtrm dtrm--order ">
+				  						<div class="dtrm__header px-4">
+				  							<img class="close-block" src="https://rodeo.moda/design/rodeo/images/modals/exit.svg" alt="">
+				  							<h4>Информация о заказе: № 250</h4>
+				  						</div>
+				  						<div class="dtrm__content">
+				  							<div class="px-4 py-4">
 
-                                </div>
-                            </div>
+				  								<!-- <div class="row">
+				  									<div class="col-sm-12">
+				  										<h4 class="black__text">Информация о заказе и доставке</h4>
+				  									</div>
+				  								</div> -->
 
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="review__block">
-                                        <span class="review__date">10.10.2015</span> <br>
-                                        <b class="review__header">Отзыв</b>
-                                        <b class="review__header review__header-min grey__text">Товар:</b>
-                                        <b class="review__header review__header-min">Pantamo Джинсы</b>
-                                        <b class="review__header review__header-min grey__text">Рейтинг бренда Pantamo:</b>
-                                        <img class="review__star" src="images/star.png" alt="">
-                                        <img class="review__star" src="images/star.png" alt="">
-                                        <img class="review__star" src="images/star.png" alt="">
-                                        <img class="review__star" src="images/star.png" alt="">
-                                        <img class="review__star"  src="images/star.png" alt="">
+				  								<div class="row py-3">
+				  									<div class="col-sm-8">
+				  										<p><span class="black__text">Получатель:</span> <span>Иванов Иван Иванович, телефон: +7 953 999 34 55</span></p> 
+				  										<p><span class="black__text">Вид доставки:</span> <span>Pick Point</span></p>
+				  										<p><span class="black__text">Стоимость доставки:</span> <span>Бесплатно</span></p> 
+				  										<p><span class="black__text">Адрес доставки:</span> <span>г.&nbsp;Новосибирск,  ул.&nbsp;Ленина, 51</span></p>
+				  										<p><span class="black__text">Способ оплаты:</span> <span>При получении</span></p>
+				  									</div>
+				  									<div class="col-sm-4">
+				  										<p>&nbsp;</p>
+				  										<p class="text-center order__completed green__text"><b>Выполнен</b></p>
+				  									</div>
+				  								</div>
+				  								<div class="row">
+				  									<div class="col-md-12 col-sm-12">
+				  										<div class="order__info col-xs-12">
+				  											<div class="order__info-number">№</div>
+				  											<div class="order__info-descr">Описание</div>
+				  											<div>Кол-во</div>
+				  											<div>Цена</div> 
+				  											<div>Сумма</div> 
+				  										</div>
 
-                                        <br>
-                                        <span class="review__body">Цвет, ткань супер! Но так и не смогла уложить воротник, чтобы хоть как-то стало приемлемо для носки. А использовать пальто как накидку (не&nbsp;застегивая) посчитала неприемлимым. Да и в плечах тянет, крой неудачный. В общем, на мой взгляд дизайнер что-то не додумал.</span>
-                                        <img src="images/review-img-1.png" alt="">
-                                        <img src="images/review-img-2.png" alt="">
-                                        <img src="images/review-img-3.png" alt="">
-                                        <img src="images/review-img-1.png" alt="">
-                                        <img src="images/review-img-2.png" alt="">
-                                        <img src="images/review-img-3.png" alt="">
+				  										<div class="order__info order__info-result">
+				  											<div class="order__info-number"><b class="black__text">1</b></div>
+				  											<div class="order__info-descr">
+				  												<div class="col-md-6 ">
+				  													<img src="img/order-pic.jpg" alt="">
+				  												</div>
+				  												<div class="col-md-6 pt-3">
+				  													<b class="black__text ">Джинсы Lacoste</b> <br> <br>
+				  													<small class="black__text">Размер: 25/29</small>
+				  												</div>
+				  											</div>
+				  											<div>
+				  												<b class="quantity__counter">6</b>
+				  											</div>
+				  											<div>6 250 руб. <br>
+				  												<s class="red__text">5 900 руб</s> <br>
+				  												<span class="red__text">-15% распродажа</span>
+				  											</div> 
+				  											<div><b class="black__text">2399 руб.</b> <br>
+				  												<span class="green__text">+199 бонусов</span>
+				  											</div>
+				  											<div class="blue__sticker">
+				  												Написать отзыв <br>
+				  												+50 бонусов
+				  											</div> 
+				  										</div>
 
-                                        <div class="reply__section-grey">
-                                            <div class="col-md-4 col-lg-4">
-                                                <img src="images/logo.png" alt="">
-                                            </div>
-                                            <div class="col-md-8 col-lg-8">
-                                                <b class="review__header">Комментарий интернет-магазина RODEO.MODA</b><br>
-                                                <span class="reply">Цвет, ткань супер! Но так и не смогла уложить воротник, чтобы хоть как-то стало приемлемо для носки. А использовать пальто как накидку (не&nbsp;застегивая) посчитала неприемлимым. Да и в плечах тянет, крой неудачный. В общем, на мой взгляд дизайнер что-то не додумал.</span>
+				  									</div>
+				  								</div>
 
-                                            </div>
+				  							</div>
+				  						</div>
+				  						<div class="dtrm__footer">
+				  							<div class="row">
+				  								<div class="col-md-8">
+				  									<span class="dtrm__footer-heading ">Доставка 500 рублей, при заказе свыше 2000 рублей - <b class="black__text">Бесплатно</b></span>
+				  									<p>&nbsp;</p>
+				  									
+				  									<p class="dtrm__footer-text">*Для внесений изменений в заказ звоните по телефону 8 800 500 76 50 и сообщайте оператору с 6 - 16 часов по московскому времени или на автоответчик в любое время суток.</p>
+				  								</div>
 
-                                        </div>
-                                    </div>
+				  								<div class="col-md-4 dtrm__footer__rightSide">
+				  									<s class="red__text">6620 руб.</s> <br>
+				  									<span class="black__text">СУММА ЗАКАЗА:</span> <b>5997 руб.</b> <br>
+				  									<span class="green__text">Оплата бонусами: -300 руб.</span> <br>
+				  									<b class="black__text">ИТОГО К ОПЛАТЕ:</b> <b>5697 руб.</b><br>
+				  									<span class="red__text">Ваша экономия: 923 руб</span> <br>
+				  									<b class="black__text">ДОСТАВКА:</b> <b >БЕСПЛАТНО</b> <br>
+				  									<span class="black__text">ВСЕГО С ДОСТАВКОЙ:</span> <b>5697 руб.</b> 
+				  								</div>
+				  							</div>
+				  						
+				  							
+				  						</div>
+				  					</div>
+				  				</div>
+				  			</div>
 
-                                </div>
-                            </div>
+				  			
 
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="review__block">
-                                        <span class="review__date">10.10.2015</span> <br>
-                                        <b class="review__header">Отзыв</b>
-                                        <b class="review__header review__header-min grey__text">Товар:</b>
-                                        <b class="review__header review__header-min">Pantamo Джинсы</b>
-                                        <b class="review__header review__header-min grey__text">Рейтинг бренда Pantamo:</b>
-                                        <img class="review__star" src="images/star.png" alt="">
-                                        <img class="review__star" src="images/star.png" alt="">
-                                        <img class="review__star" src="images/star.png" alt="">
-                                        <img class="review__star" src="images/star.png" alt="">
-                                        <img class="review__star"  src="images/star.png" alt="">
-
-                                        <br>
-                                        <span class="review__body">Цвет, ткань супер! Но так и не смогла уложить воротник, чтобы хоть как-то стало приемлемо для носки. А использовать пальто как накидку (не&nbsp;застегивая) посчитала неприемлимым. Да и в плечах тянет, крой неудачный. В общем, на мой взгляд дизайнер что-то не додумал.</span>
-                                        <img src="images/review-img-1.png" alt="">
-                                        <img src="images/review-img-2.png" alt="">
-                                        <img src="images/review-img-3.png" alt="">
-                                        <img src="images/review-img-1.png" alt="">
-                                        <img src="images/review-img-2.png" alt="">
-                                        <img src="images/review-img-3.png" alt="">
-                                    </div>
-
-                                </div>
-                            </div>
-
+				  			<div class="row mb-5">
+				  				<div class="col-md-12">
+				  					<div class="pagination ">
+				  						<ul class="pagination"> 
+				  							<li class="active"><a href="/catalog/zhenschinam">1 <span class="sr-only">(current)</span></a></li>
+				  							<li><a href="/catalog/zhenschinam?page=2">2</a></li>
+				  							<li><a href="/catalog/zhenschinam?page=3">3</a></li>
+				  							<li class="hidden-xs"><a href="/catalog/zhenschinam?page=4">4</a></li> 
+				  							<li class="hidden-xs"><a href="/catalog/zhenschinam?page=5">5</a></li>
+				  							<li class="hidden-xs"><a href="/catalog/zhenschinam?page=6">6</a></li>
+				  							<li><a href="/catalog/zhenschinam?page=7">...</a></li> 
+				  							<li><a href="/catalog/zhenschinam?page=27">27</a></li>
+				  							<li><a href="/catalog/zhenschinam?page=2">вперед→</a></li> 
+				  						</ul> 
+				  					</div>
+				  				</div>
+				  			</div>
 
 				  		</div>
 

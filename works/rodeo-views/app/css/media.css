@@ -1,0 +1,7 @@
+@media only screen and (max-width: 320px) {
+	.review__btn {
+		display: block;
+   		margin: 0 auto;
+   		float:none;
+	}
+}
