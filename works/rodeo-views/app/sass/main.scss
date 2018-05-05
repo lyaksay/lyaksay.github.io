@@ -411,7 +411,16 @@ $green__text: rgb(36, 150, 50);
 	width: 165px;
 }
 
+.review__images img {
+	padding-bottom: 15px;
+}
 
+.underline__red {
+	color: #f13232;
+    border-bottom: 1px solid rgba(241, 50, 50, 0.5);
+    font-size: 12px;
+    border-bottom-width: 1px;
+}
 /*-----------
 -----END----
 -----------*/
