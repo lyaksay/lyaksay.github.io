@@ -91,6 +91,11 @@ body {
   clear: left;
 }
 
+.button__purchase:hover {
+  background-color: #d56363;
+  transition: 0.5s;
+}
+
 .button__purchase-dscr {
   font-size: 13px;
   font-family: "Arial";
