@@ -118,8 +118,8 @@ body {
 
 .info {
   position: fixed;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f3fcb0), to(#fff));
-  background: linear-gradient(#f3fcb0, #fff);
+  background: -webkit-gradient(linear, left top, left bottom, from(#f0f0f0), to(#fff));
+  background: linear-gradient(#f0f0f0, #fff);
   left: 65%;
   top: -1px;
   width: 31%;
