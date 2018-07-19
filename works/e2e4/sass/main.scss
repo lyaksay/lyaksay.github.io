@@ -1,5 +1,15 @@
+@font-face {
+  font-family: 'PT Sans Regular';
+  src: url('../fonts/PT Sans/PTSans-Regular.eot');
+  src: url('../fonts/PT Sans/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/PT Sans/PTSans-Regular.woff') format('woff'),
+  url('../fonts/PT Sans/PTSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  background-color: rgb(24, 50, 82);
+  background-color: rgb(11, 54, 79);
 }
 
 p {
@@ -8,30 +18,75 @@ p {
 
 .wrapper{
   background-color: #ffffff;
-  padding: 40px;
+  padding: 20px 40px;
   width: 80%;
   margin: 50px auto;
 }
 
 .post__wrapper {
-  padding: 5px;
+  padding:0 5px;
+  margin-bottom: 20px;
 }
 
 .post {
+  padding-top:20px;
   .post__image {
-    border: 2px solid rgb(165, 191, 204);
+    border: 2px solid rgb(165, 206, 227);
+    margin-bottom: 5px;
+    display: inline-block;
   }
+
   .post__heading {
     display: inline-block;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 200px;
-    max-width: 65%;
+    width: 250px;
+    max-width: 67%;
+    font-family: 'PT Sans Regular';
+    font-size: 18px;
+    font-weight: bold;
+    color: #0d6988;
+    margin-bottom: -5px;
   }
+
   .post__date {
     position: absolute;
     white-space: nowrap;
-    right: 6px;
+    font-family: 'PT Sans Regular';
+    font-size: 14px;
+    right: 7px;
+    color: #aba6a6;
+    top: 23px;
+  }
+
+  a {
+    text-decoration: none;
+    &:hover {
+      opacity: 0.9;
+      text-decoration: none;
+    }
+    &:hover .post__descr {
+      color: #3f697d;
+    }
+  }
+
+  .post__descr {
+    color:#000000;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'PT Sans Regular';
+    &:hover {
+      color: #3f697d;
+    }
   }
 }
+
+.post__border {
+  border-top: 2px solid rgb(237, 237, 237);
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
