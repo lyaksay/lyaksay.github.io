@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(24, 50, 82);
+}
+
+p {
+  margin: 0;
+}
+
+.wrapper{
+  background-color: #ffffff;
+  padding: 40px;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.post__wrapper {
+  padding: 5px;
+}
+
+.post {
+  .post__image {
+    border: 2px solid rgb(165, 191, 204);
+  }
+  .post__heading {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 200px;
+    max-width: 65%;
+  }
+  .post__date {
+    position: absolute;
+    white-space: nowrap;
+    right: 6px;
+  }
+}
