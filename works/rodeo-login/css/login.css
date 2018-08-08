@@ -1,0 +1,29 @@
+.form-signin-heading {
+	margin-bottom: 35px;
+}
+
+.register__block {
+	margin: 0 15px;
+}
+
+.register__block .register__block-button {
+	margin-top: 18px;
+	float: left;
+}
+
+.register__block p {
+	float: left;
+}
+
+.password__reminder {
+	white-space: nowrap;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+@media only screen and (max-width: 992px) {
+  .entry .text-right {
+  	text-align: left;
+  	margin-top: 28px;
+  }
+}
