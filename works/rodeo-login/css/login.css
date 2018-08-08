@@ -7,12 +7,13 @@
 }
 
 .register__block .register__block-button {
-	margin-top: 18px;
+	margin-top: 24px;
 	float: left;
 }
 
 .register__block p {
 	float: left;
+	margin-top: -6px;
 }
 
 .password__reminder {
