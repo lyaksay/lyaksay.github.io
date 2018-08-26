@@ -51,20 +51,27 @@
     line-height: 1.5;
 }
 
-@media only screen and (max-width: 992px) {
-  .user__info-block {
-    margin-bottom: 30px;
+.user__info-block-dscr-shorttext {
+    margin-bottom: 32px;
 }
 
+@media only screen and (max-width: 1992px) {
+    .user__info-block {
+        margin-bottom: 30px;
+    }
 }
 
+@media only screen and (max-width: 1124px) {
+    .user__info-block-dscr-shorttext {
+        margin-bottom: 10px;
+    }
+}
 @media only screen and (max-width: 500px) {
-  .user__info-block-img {
-   margin-bottom: 20px;
-}
+    .user__info-block-img {
+       margin-bottom: 20px;
+    }
 
-.user__info-block-dscr {
-    white-space: normal;
-}
-
+    .user__info-block-dscr {
+        white-space: normal;
+    }
 }
