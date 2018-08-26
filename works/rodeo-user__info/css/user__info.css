@@ -1,0 +1,70 @@
+.user__info-wrapper h1 {
+	font-size: 24px;
+    font-family: "Arial";
+    color: #2e2d2d;
+    line-height: 1.25;
+    text-align: left;
+    font-weight: normal;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.user__info-wrapper .user__info-greetings {
+	font-size: 12px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ddd;
+}
+
+.user__info-wrapper .user__info-username {
+	font-weight: bold;
+}
+
+.user__info {
+    margin: 50px 2% 0;
+}
+
+.user__info-block {
+    margin-bottom: 60px;
+}
+
+.user__info-block-img {
+    float: left;
+    margin-top: 15px;
+    margin-right: 28px;
+    width: 30px;
+}
+
+.user__info-block-text {
+    float: left;
+}
+
+.user__info-block-heading {
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.user__info-block-dscr {
+    white-space: pre-line;
+    line-height: 1.5;
+}
+
+@media only screen and (max-width: 992px) {
+  .user__info-block {
+    margin-bottom: 30px;
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+  .user__info-block-img {
+   margin-bottom: 20px;
+}
+
+.user__info-block-dscr {
+    white-space: normal;
+}
+
+}
