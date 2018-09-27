@@ -99,7 +99,7 @@ body {
 }
 
 .registration__section {
-  margin-top: 40px;
+  margin-top: 30px;
   background: url("../images/back-circle.png") no-repeat center;
   background-size: contain;
 }
@@ -169,4 +169,44 @@ body {
   font-weight: bold;
   line-height: 1;
   text-align: center;
+}
+
+.cashback__section {
+  margin-top: 90px;
+  text-align: center;
+}
+.cashback__section .cashback__section-heading {
+  font-family: 'globersemibold';
+  font-size: 56px;
+  line-height: 1;
+  color: #000;
+  margin-bottom: 20px;
+}
+.cashback__section p {
+  display: block;
+  margin: 0 auto 20px;
+  font-size: 32px;
+  color: #666666;
+  font-family: 'globersemibold';
+}
+.cashback__section .cashback__section-value {
+  display: inline-block;
+  position: relative;
+  font-family: 'globerheavy';
+  font-size: 256px;
+  line-height: .8;
+  color: #ffdb4d;
+}
+.cashback__section .cashback__section-value .cashback__section-value-sup {
+  position: absolute;
+  top: 15px;
+  left: 100%;
+  font-size: 72px;
+}
+.cashback__section .cashback__section-title {
+  font-family: 'globerheavy';
+  font-size: 56px;
+  text-transform: uppercase;
+  color: #303246;
+  margin-top: -10px;
 }
