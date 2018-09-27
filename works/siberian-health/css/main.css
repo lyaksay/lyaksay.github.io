@@ -59,18 +59,48 @@ body {
   border-radius: 5px;
 }
 .wish__section .wish__section-block {
+  margin-top: 85px;
   z-index: 10;
   text-align: center;
 }
+.wish__section .wish__section-heading {
+  position: absolute;
+  top: -85px;
+  left: 10px;
+  font-family: 'globerheavy';
+  font-size: 240px;
+  color: #ffffff;
+  z-index: 5;
+}
 .wish__section .wish__section-subheading {
+  display: inline-block;
   font-family: 'globersemibold';
   font-size: 100px;
+  line-height: 1;
+  color: #000;
+}
+.wish__section .wish__section-sign {
+  display: inline-block;
+  font-size: 50px;
+  line-height: 1;
   color: #000;
 }
 .wish__section .wish__section-subheading-sm {
   font-family: 'globersemibold';
-  font-size: 55px;
-  text-align: left;
+  font-size: 50px;
+  letter-spacing: -1px;
+  text-align: center;
   line-height: 1;
   color: #000;
+}
+.wish__section .wish__section-text {
+  font-family: 'globersemibold';
+  font-size: 25px;
+}
+
+.registration__section {
+  margin-top: 40px;
+  background: url("../images/back-circle.png") no-repeat center;
+  background-size: contain;
+  height: 500px;
 }

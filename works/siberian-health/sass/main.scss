@@ -1,5 +1,10 @@
 $yellow: #ffdb4d;
 
+@mixin wish-section-text {
+    line-height: 1;
+    color: #000;
+} 
+
 @font-face {
     font-family: 'globerregular';
     src: url('../fonts/glober_regular-webfont.woff2') format('woff2'),
@@ -74,23 +79,53 @@ body {
     border-radius: 5px;
 
     .wish__section-block {
+        margin-top: 85px;
         z-index: 10;
         text-align: center;
     }
 
+    .wish__section-heading {
+        position: absolute;
+        top: -85px;
+        left: 10px;
+        font-family: 'globerheavy';
+        font-size: 240px;
+        color: #ffffff;
+        z-index: 5;
+    }
+
     .wish__section-subheading {
+        display: inline-block;
         font-family: 'globersemibold';
         font-size: 100px;
-        color: #000;
+        @include wish-section-text;
+    }
+
+    .wish__section-sign {
+        display: inline-block;
+        font-size: 50px;
+        @include wish-section-text;
     }
 
     .wish__section-subheading-sm {
         font-family: 'globersemibold';
-        font-size: 55px;
-        text-align: left;
-        line-height: 1;
-        color: #000;
+        font-size: 50px;
+        letter-spacing: -1px;
+        text-align: center;
+        @include wish-section-text;
+    }
+
+    .wish__section-text {
+        font-family: 'globersemibold';
+        font-size: 25px;
+        
     }
    
 }
-    
+
+.registration__section {
+    margin-top: 40px;
+    background: url('../images/back-circle.png') no-repeat center;
+    background-size: contain;
+    height: 500px;
+}
