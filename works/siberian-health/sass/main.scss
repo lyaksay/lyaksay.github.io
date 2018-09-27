@@ -1,0 +1,96 @@
+$yellow: #ffdb4d;
+
+@font-face {
+    font-family: 'globerregular';
+    src: url('../fonts/glober_regular-webfont.woff2') format('woff2'),
+        url('../fonts/glober_regular-webfont.woff') format('woff'),
+        url('../fonts/glober_regular-webfont.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'globerheavy';
+    src: url('../fonts/glober_heavy-webfont.woff2') format('woff2'),
+        url('../fonts/glober_heavy-webfont.woff') format('woff'),
+        url('../fonts/Glober_Heavy.otf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'globerlight';
+    src: url('../fonts/glober_light-webfont.woff2') format('woff2'),
+        url('../fonts/glober_light-webfont.woff') format('woff'),
+        url('../fonts/Glober_Light.otf format') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'globersemibold';
+    src: url('../fonts/glober_semibold-webfont.woff2') format('woff2'),
+         url('../fonts/glober_semibold-webfont.woff') format('woff'),
+         url('../fonts/Glober_SemiBold.otf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #fffffe;
+    overflow-x: hidden;
+}
+
+.wrapper {
+    font-family: 'globersemibold';
+    max-width: 1200px;
+    margin: 8px auto;
+    border-radius: 7px;
+    box-shadow: -1px 0px 10px -1px #a3a3a2;
+}
+
+.top__section {
+    position: relative;
+    background-color: #ffd539;
+    padding: 55px;
+    border-radius: 5px;
+
+    .top__section-heading {
+        font-family: 'globerregular';
+        font-size: 90px;
+        line-height: 1.07;
+        color: #000;
+    }
+    
+    p {
+        font-size: 25px;
+    }
+}
+
+.wish__section {
+    position: relative;
+    margin-top: 20px;
+    background-color: $yellow;
+    border-radius: 5px;
+
+    .wish__section-block {
+        z-index: 10;
+        text-align: center;
+    }
+
+    .wish__section-subheading {
+        font-family: 'globersemibold';
+        font-size: 100px;
+        color: #000;
+    }
+
+    .wish__section-subheading-sm {
+        font-family: 'globersemibold';
+        font-size: 55px;
+        text-align: left;
+        line-height: 1;
+        color: #000;
+    }
+   
+}
+    
