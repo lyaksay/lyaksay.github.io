@@ -59,4 +59,11 @@
   .wish__section .wish__section-subheading-sm {
     margin-bottom: 10px;
   }
+  .wish__section .wish__section-block-3 {
+    margin-bottom: 20px;
+  }
+
+  .registration__section .registration__section-heading {
+    font-size: 140px;
+  }
 }
