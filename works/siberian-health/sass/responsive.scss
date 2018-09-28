@@ -13,7 +13,6 @@
     }
 
     .wish__section {
-
         .wish__section-block {
             margin-bottom: 55px;
         }
@@ -120,6 +119,10 @@
             font-size: 24px;
         }
     }
+
+    .dropdown-menu-footer-list {
+        width: 180%;
+    }
 }
 
 @media only screen and (max-width: 426px) {  
@@ -225,6 +228,8 @@
             font-size: 24px;
         }
     }
+
+
 
     .footer {
         background: url('../images/sand.png') no-repeat;

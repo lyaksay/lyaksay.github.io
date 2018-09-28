@@ -337,11 +337,15 @@ body {
     padding-top: 110px;
     padding-left: 6%;
 
+    .footer__toggle-border {
+        display: inline-block;
+        border-bottom: 2px dashed #6e6b69;
+    }
+
     .footer__toggle-btn {
         font-family: 'globerheavy';
         font-size: 42px;
         line-height: 1;
-        border-bottom: 1px dotted #666666;
         background-color: transparent;
         border: none;
         text-transform: uppercase;

@@ -94,6 +94,10 @@
   .footer .footer__toggle-btn {
     font-size: 24px;
   }
+
+  .dropdown-menu-footer-list {
+    width: 180%;
+  }
 }
 @media only screen and (max-width: 426px) {
   .top__section .top__section-heading {
