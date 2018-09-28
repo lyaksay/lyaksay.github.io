@@ -66,4 +66,140 @@
   .registration__section .registration__section-heading {
     font-size: 140px;
   }
+
+  .footer .footer__heading {
+    font-size: 140px;
+  }
+  .footer .footer__subheading {
+    font-size: 80px;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .wrapper {
+    margin: 8px 10px;
+  }
+
+  .cashback__section-btn, .registration__section .registration__section-btn {
+    width: 80%;
+  }
+
+  .footer .footer__heading {
+    font-size: 110px;
+    letter-spacing: 1px;
+  }
+  .footer .footer__subheading {
+    font-size: 50px;
+    letter-spacing: 1px;
+  }
+  .footer .footer__toggle-btn {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .top__section .top__section-heading {
+    font-size: 44px;
+  }
+
+  .top__section p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .wish__section .wish__section-heading {
+    font-size: 65px;
+    margin-bottom: 0px;
+  }
+
+  .wish__section .wish__section-subheading {
+    font-size: 56px;
+  }
+
+  .wish__section .wish__section-subheading-sm {
+    font-size: 42px;
+    margin-top: 10px;
+  }
+
+  .wish__section .wish__section-block {
+    margin-top: 0px;
+  }
+
+  .registration__section {
+    margin-top: 20px;
+  }
+
+  .registration__section .registration__section-heading {
+    font-size: 60px;
+  }
+
+  .registration__section .registration__section-subheading {
+    margin-top: 0;
+  }
+
+  .registration__section-code .registration__section-code-value {
+    width: 100%;
+    font-size: 24px;
+  }
+
+  .registration__section .registration__section-btn {
+    margin: 40px auto 40px;
+  }
+
+  .registration__section p {
+    font-size: 24px;
+    width: 80%;
+  }
+
+  .section__btn {
+    width: 80%;
+    font-size: 18px;
+    padding: 15px 10px;
+  }
+
+  .cashback__section .cashback__section-heading {
+    font-size: 45px;
+  }
+
+  .cashback__section .cashback__section-value {
+    font-size: 120px;
+  }
+
+  .cashback__section .cashback__section-value .cashback__section-value-sup {
+    font-size: 50px;
+  }
+
+  .cashback__section .cashback__section-title {
+    margin-top: 0;
+    font-size: 40px;
+  }
+
+  .friends__section .friends__section-block {
+    margin: 0px 19px 25px;
+    width: 170px;
+    height: 123px;
+    padding: 0px 28px 0;
+  }
+  .friends__section .friends__section-block:before {
+    left: 18%;
+  }
+
+  .footer .footer__heading {
+    font-size: 50px;
+    letter-spacing: 1px;
+  }
+  .footer .footer__subheading {
+    font-size: 24px;
+    letter-spacing: 1px;
+  }
+  .footer .footer__toggle-btn {
+    font-size: 24px;
+  }
+
+  .footer {
+    background: url("../images/sand.png") no-repeat;
+    background-size: cover;
+  }
+
+  .footer__toggle-wrapper {
+    display: none;
+  }
 }

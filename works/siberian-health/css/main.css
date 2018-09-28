@@ -245,7 +245,7 @@ body {
 .friends__section .friends__section-block {
   display: inline-block;
   position: relative;
-  margin: 0 43px 25px;
+  margin: 0 54px 25px;
   width: 260px;
   height: 127px;
   padding: 22px 28px 0;
@@ -270,26 +270,57 @@ body {
 
 .footer {
   position: relative;
-  background: url("../images/sand.png") no-repeat;
-  background-size: cover;
+}
+.footer .footer__head {
+  display: inline-block;
+  position: relative;
+  width: 80%;
+  left: 7%;
+  font-family: 'globerheavy';
+  text-transform: uppercase;
+  line-height: 1;
 }
 .footer .footer__heading {
-  position: relative;
-  left: 110px;
-  font-family: 'globerheavy';
   font-size: 200px;
-  line-height: 1;
   color: #ffdb4d;
-  text-transform: uppercase;
   letter-spacing: -10.5px;
 }
 .footer .footer__subheading {
-  position: relative;
-  left: 110px;
-  font-family: 'globerheavy';
   font-size: 140px;
-  line-height: 1;
-  text-transform: uppercase;
   color: #2a94e5;
   letter-spacing: -6px;
+}
+
+.footer__toggle-wrapper {
+  background: url("../images/sand.png") no-repeat;
+  background-size: cover;
+  height: 300px;
+  margin-top: -95px;
+  padding-top: 110px;
+  padding-left: 6%;
+}
+.footer__toggle-wrapper .footer__toggle-btn {
+  font-family: 'globerheavy';
+  font-size: 42px;
+  line-height: 1;
+  border-bottom: 1px dotted #666666;
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase;
+  color: #000000;
+  cursor: pointer;
+  padding-left: 0;
+}
+.footer__toggle-wrapper .dropdown-menu-footer {
+  background-color: transparent;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  font-family: 'globerheavy';
+  font-size: 15px;
+  line-height: 1;
+  color: #000000;
+}
+.footer__toggle-wrapper .dropdown-menu-footer li {
+  margin-bottom: 5px;
 }

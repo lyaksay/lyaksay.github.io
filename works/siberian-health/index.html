@@ -9,7 +9,7 @@
 	<title>Если хочется, то можно!</title>
 	
 	<!-- Стили и шрифты -->
-	<link rel="stylesheet" href="bootstrap/bootstrap-grid-3.3.1.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -121,16 +121,35 @@
 		</div>
 	</div>
 	<div class="row footer">
-		<div class="footer__heading">
+		<div class="footer__head footer__heading">
 			Прокачай
 		</div>
-		<div class="footer__subheading">
+		<div class="footer__head footer__subheading">
 			свое лето
 		</div>
+		
+		<div class="footer__toggle-wrapper">
+			<div class="col-lg-12">
+				<div class="dropdown closed">
+					<button class="dropdown-toggle footer__toggle-btn " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Подробные условия акции
+					</button>
+				<div class="dropdown-menu dropdown-menu-footer" aria-labelledby="dropdownMenuButton" >
+					<ol>
+						<li> <span>Период действия акции: с 1 мая по 31 августа 2018 года.</span> </li>
+						<li> <span>Участники акции: новые Привилегированные клиенты и Консультанты Siberian Health, заключившие Соглашение в период действия акции. Консультанты, перешедшие из статуса Привилегированного клиента, в акции не участвуют.</span> </li>
+						<li> <span>Промокод можно использовать только при совершении первой единовременной покупки от 100 евро (не менее 100 баллов) в месяц регистрации в Компании. 12 бонусных евро предоставляются при покупке продукции в Центрах обслуживания Компании или при заказе на официальном сайте Siberian Health.</span> </li>
+						<li> <span>На покупку, оплаченную Наставником, промокод не действует.</span> </li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		
+		
 	</div>
 </div>
-
-	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
 	
 </body>
 </html>
