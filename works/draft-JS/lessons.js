@@ -1,1 +1,0 @@
-<script src="design/rodeo/js/rodeo.js?v=1527836893" type="text/javascript"></script>
