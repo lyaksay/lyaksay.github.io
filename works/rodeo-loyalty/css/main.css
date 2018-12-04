@@ -1,0 +1,63 @@
+.loyalty .loyalty_heading {
+  border-bottom: 1px solid #ddd;
+}
+.loyalty .loyalty_heading h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.loyalty .loyalty_banner {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  background-color: #f9f9f9;
+  -webkit-box-shadow: 3px 0px 10px 1px #e6e6e6;
+          box-shadow: 3px 0px 10px 1px #e6e6e6;
+}
+.loyalty .loyalty_banner img {
+  max-width: 100px;
+  position: relative;
+  padding: 6px;
+  float: left;
+}
+
+.loyalty_banner::after {
+  content: "";
+  position: absolute;
+  background: #ef4747;
+  width: 111px;
+  height: 111px;
+  border: 1px solid #ddd;
+  z-index: -1;
+  left: -16px;
+  top: -18px;
+}
+
+.loyalty_banner-inner {
+  padding: 13px 0 7px;
+  text-align: center;
+}
+.loyalty_banner-inner .loyalty_banner-heading {
+  font-size: 36px;
+  color: #c21a0d;
+}
+
+.center {
+  text-align: center;
+}
+
+.bonus_program {
+  margin-top: 25px;
+}
+
+.rodeo_piggy {
+  max-width: 85px;
+  max-height: 85px;
+  margin-left: 20px;
+  margin-top: -15px;
+}
+
+@media only screen and (max-width: 375px) {
+  .huge__text {
+    font-size: 33px;
+  }
+}
