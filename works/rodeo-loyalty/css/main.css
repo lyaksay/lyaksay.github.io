@@ -56,6 +56,19 @@
   margin-top: -15px;
 }
 
+.loyalty_label {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  width: 360px;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  background: #e21011;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
 @media only screen and (max-width: 375px) {
   .huge__text {
     font-size: 33px;
