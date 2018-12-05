@@ -69,6 +69,10 @@
   text-transform: uppercase;
 }
 
+.bonus_table .bonus_table-item {
+  text-align: center;
+}
+
 @media only screen and (max-width: 375px) {
   .huge__text {
     font-size: 33px;
