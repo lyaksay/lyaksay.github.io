@@ -77,6 +77,34 @@
 	.bonus_table-item {
 		text-align: center;
 	}
+
+	span, strong {
+		color: #e21011;
+	}
+
+	.bonus_table-number {
+		font-size: 72px;
+	}
+
+	.bonus_table-text {
+		font-size: 18px;
+		margin-left: 5px;
+		vertical-align: text-bottom;
+		line-height: 5;
+
+	}
+
+	.bonus_table-conditions {
+		&:before {
+			content: "";
+			background-image: url('..//img/check.svg');
+			background-size: cover;
+			display: inline-block;
+			width: 10px ;
+			height: 10px;
+
+		}
+	}
 }
 
 
