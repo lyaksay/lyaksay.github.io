@@ -64,18 +64,46 @@
     display: inline-block;
     position: relative;
     vertical-align: middle;
-    width: 360px;
+    width: 316px;
     height: 60px;
     line-height: 60px;
     color: #fff;
     background: #e21011;
-	font-size: 24px;
+	font-size: 22px;
 	text-transform: uppercase;
 }
 
+.loyalty_label-2 {
+	font-size: 15px;
+	text-align: center;
+	text-transform: none;
+}
+
 .bonus_table {
+	margin: 25px 0;
+
 	.bonus_table-item {
 		text-align: center;
+		padding-bottom: 37px;
+
+		&:nth-child(1){
+			border-bottom:1px solid #ddd;
+		}
+		&:nth-child(2){
+			border-bottom:1px solid #ddd;
+			border-left: 1px solid #ddd;
+			padding-bottom:0;
+		}
+		&:nth-child(3){
+			border-bottom:1px solid #ddd;
+			border-left: 1px solid #ddd;
+		}
+		&:nth-child(5){
+			border-left: 1px solid #ddd;
+		}
+		&:nth-child(6){
+			border-left: 1px solid #ddd;
+		}
 	}
 
 	span, strong {
@@ -97,15 +125,18 @@
 	.bonus_table-conditions {
 		&:before {
 			content: "";
-			background-image: url('..//img/check.svg');
-			background-size: cover;
 			display: inline-block;
-			width: 10px ;
-			height: 10px;
-			color: #ddd;
-
+			position: relative;
+			top: 5px;
+			right: 10px;
+			background-image: url(..//img/1.png);
+			background-size: cover;
+			width: 20px;
+			height: 20px;
 		}
 	}
+
+	
 }
 
 
