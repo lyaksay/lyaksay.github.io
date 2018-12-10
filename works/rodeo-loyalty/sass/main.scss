@@ -92,7 +92,6 @@
 		&:nth-child(2){
 			border-bottom:1px solid #ddd;
 			border-left: 1px solid #ddd;
-			padding-bottom:0;
 		}
 		&:nth-child(3){
 			border-bottom:1px solid #ddd;
@@ -123,6 +122,7 @@
 	}
 
 	.bonus_table-conditions {
+		margin-right: 25%;
 		&:before {
 			content: "";
 			display: inline-block;
@@ -135,10 +135,13 @@
 			height: 20px;
 		}
 	}
-
-	
 }
 
+.bonus_table-condition {
+	position: absolute;
+	left: 14%;
+
+}
 
 
 
