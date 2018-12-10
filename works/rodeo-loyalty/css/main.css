@@ -45,7 +45,7 @@
   text-align: center;
 }
 
-.bonus_program {
+.bonus_program, .sales_program {
   margin-top: 25px;
 }
 
@@ -70,7 +70,7 @@
 }
 
 .loyalty_label-2 {
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
   text-transform: none;
 }
@@ -111,6 +111,10 @@
   vertical-align: text-bottom;
   line-height: 5;
 }
+.bonus_table .bonus_table-text--procent {
+  font-size: 30px;
+  line-height: 3;
+}
 .bonus_table .bonus_table-conditions {
   margin-right: 25%;
 }
@@ -128,7 +132,44 @@
 
 .bonus_table-condition {
   position: absolute;
-  left: 14%;
+  left: 13%;
+}
+
+.loyalty_sales {
+  margin-left: -20px;
+}
+.loyalty_sales:before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  right: 10px;
+  background-image: url(..//img/1.png);
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+}
+
+.loyalty_footer {
+  margin: 30px 0 20px;
+}
+.loyalty_footer p {
+  position: relative;
+  left: -5%;
+  width: 105%;
+  padding: 13px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  background: #a2a2a2;
+  color: #fff;
+}
+.loyalty_footer div {
+  text-align: center;
+  margin-top: 15px;
+}
+.loyalty_footer span {
+  font-size: 12px;
+  color: #a2a2a2;
 }
 
 @media only screen and (max-width: 375px) {
