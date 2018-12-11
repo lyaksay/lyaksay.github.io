@@ -130,7 +130,15 @@
   height: 20px;
 }
 
-.bonus_table-condition {
+.bonus_table .bonus_table-item:last-child .bonus_table-conditions {
+  margin-right: -20px;
+}
+
+.bonus_table .bonus_table-item:nth-child(4) .bonus_table-conditions {
+  margin-right: 46%;
+}
+
+.bonus_table-item .bonus_table-condition {
   position: absolute;
   left: 13%;
 }
@@ -157,7 +165,7 @@
   position: relative;
   left: -5%;
   width: 105%;
-  padding: 13px 15px;
+  padding: 15px 15px;
   font-size: 15px;
   font-weight: bold;
   background: #a2a2a2;
@@ -172,8 +180,77 @@
   color: #a2a2a2;
 }
 
-@media only screen and (max-width: 375px) {
-  .huge__text {
-    font-size: 33px;
+@media only screen and (max-width: 1199px) {
+  .loyalty_label {
+    width: 260px;
+  }
+
+  .bonus_table .bonus_table-item:last-child .bonus_table-conditions {
+    margin-right: -15%;
+  }
+
+  .bonus_table-item .bonus_table-condition {
+    left: 8%;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .bonus_table .bonus_table-item:nth-child(1) {
+    border-bottom: 1px solid #ddd;
+  }
+  .bonus_table .bonus_table-item:nth-child(2) {
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+  }
+  .bonus_table .bonus_table-item:nth-child(3) {
+    border-bottom: 1px solid #ddd;
+    border-left: none;
+  }
+  .bonus_table .bonus_table-item:nth-child(4) {
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+  }
+  .bonus_table .bonus_table-item:nth-child(5) {
+    border-left: 1px solid #ddd;
+    border-left: none;
+  }
+  .bonus_table .bonus_table-item:nth-child(6) {
+    border-left: 1px solid #ddd;
+  }
+
+  .bonus_table-item .bonus_table-condition {
+    left: 16%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .bonus_table .bonus_table-item:last-child .bonus_table-conditions {
+    margin-right: -2%;
+  }
+
+  .loyalty_sales {
+    margin-left: 0px;
+  }
+
+  .loyalty_footer p {
+    position: relative;
+    left: 0%;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 614px) {
+  .loyalty_banner-inner .loyalty_banner-heading {
+    font-size: 20px;
+  }
+
+  .rodeo_piggy {
+    float: right;
+    max-width: 50px;
+  }
+
+  .loyalty strong {
+    font-size: 17px;
+  }
+
+  .bonus_program:first-child span {
+    font-size: 17px;
   }
 }
