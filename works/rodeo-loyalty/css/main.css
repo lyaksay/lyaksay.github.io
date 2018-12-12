@@ -307,3 +307,12 @@
     padding: 9px 30px;
   }
 }
+@media only screen and (max-width: 373px) {
+  .bonus_table .bonus_table-number {
+    font-size: 36px;
+  }
+
+  .bonus_table .bonus_table-conditions {
+    margin-right: -33px !important;
+  }
+}
