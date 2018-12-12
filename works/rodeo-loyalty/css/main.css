@@ -242,15 +242,68 @@
   }
 
   .rodeo_piggy {
-    float: right;
-    max-width: 50px;
+    position: absolute;
+    max-width: 40px;
+    margin-left: -27px;
+    margin-top: -15px;
   }
 
-  .loyalty strong {
-    font-size: 17px;
+  .loyalty p, strong {
+    font-size: 15px !important;
+    text-align: left;
   }
 
-  .bonus_program:first-child span {
-    font-size: 17px;
+  .bonus_program span:first-child, .sales_program span:first-child {
+    text-align: left;
+    font-size: 16px !important;
+    float: left;
+    width: 95%;
+    margin-bottom: 20px;
+  }
+
+  .loyalty_label {
+    width: 300px;
+    height: 51px;
+    line-height: 52px;
+    font-size: 19px;
+  }
+
+  .bonus_table .bonus_table-number {
+    font-size: 46px;
+  }
+
+  .bonus_table .bonus_table-text {
+    font-size: 12px;
+    vertical-align: text-bottom;
+  }
+
+  .bonus_table .bonus_table-conditions {
+    margin-right: -3px !important;
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .bonus_table .bonus_table-item:last-child .bonus_table-conditions {
+    margin-right: -5%;
+  }
+
+  .bonus_table-item .bonus_table-condition {
+    left: 8%;
+  }
+
+  .bonus_table-text--procent {
+    font-size: 18px !important;
+  }
+
+  .loyalty_label-2 {
+    display: block;
+    margin: 30px auto 0;
+  }
+
+  .loyalty_footer p {
+    position: relative;
+    left: -5%;
+    width: 110%;
+    padding: 9px 30px;
   }
 }
