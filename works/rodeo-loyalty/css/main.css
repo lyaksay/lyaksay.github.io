@@ -23,7 +23,7 @@
 .loyalty_banner::after {
   content: "";
   position: absolute;
-  background: #ef4747;
+  background: #f24848;
   width: 111px;
   height: 111px;
   border: 1px solid #ddd;
@@ -64,7 +64,7 @@
   height: 60px;
   line-height: 60px;
   color: #fff;
-  background: #e21011;
+  background: #f24848;
   font-size: 22px;
   text-transform: uppercase;
 }
@@ -100,7 +100,7 @@
   border-left: 1px solid #ddd;
 }
 .bonus_table span, .bonus_table strong {
-  color: #e21011;
+  color: #f24848;
 }
 .bonus_table .bonus_table-number {
   font-size: 72px;
@@ -234,6 +234,14 @@
     position: relative;
     left: 0%;
     width: 100%;
+  }
+
+  .loyalty_banner-inner {
+    padding: 20px 0 7px;
+  }
+
+  .loyalty_banner-inner .loyalty_banner-heading {
+    font-size: 30px;
   }
 }
 @media only screen and (max-width: 614px) {
