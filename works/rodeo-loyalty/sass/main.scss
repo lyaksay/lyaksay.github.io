@@ -41,7 +41,7 @@
 	text-align: center;
 	.loyalty_banner-heading {
 		font-size: 36px;
-		color: #c21a0d;
+		color: #f24848;
 	}
 }
 
@@ -179,7 +179,6 @@
 		width: 105%;
 		padding: 15px 15px;
 		font-size: 15px;
-		font-weight: bold;
 		background: #a2a2a2;
 		color: #fff;
 	}
@@ -267,10 +266,8 @@
 		font-size: 20px;
 	}
 	.rodeo_piggy {
-		position: absolute;
 		max-width: 40px;
-		margin-left: -27px;
-		margin-top: -15px;
+		margin: -25px 0 25px -15px;
 	}
 	
 	.loyalty p, strong {
@@ -279,10 +276,8 @@
 	}
 
 	.bonus_program span:first-child, .sales_program span:first-child  {
-		text-align: left;
-		font-size: 16px !important;
+		font-size: 28px !important;
 		float: left;
-		width: 95%;
 		margin-bottom: 20px;
 	}
 
@@ -332,8 +327,7 @@
 		position: relative;
 		left: -5%;
 		width: 110%;
-		padding: 9px 30px;
-		font-weight: normal;
+		padding: 15px;
 	}
 
 	.loyalty .loyalty_banner {
@@ -357,3 +351,44 @@
 		margin-right: -33px !important;
 	}
 }
+
+
+@media only screen and (max-width: 320px) {
+	.loyalty_banner-inner .loyalty_banner-heading {
+		font-size: 16px;
+	}
+
+	.bonus_table .bonus_table-number {
+		font-size: 32px;
+	}
+
+	.bonus_table .bonus_table-text {
+		line-height: 3;
+	}
+
+	.bonus_table-item .bonus_table-condition {
+    	left: 11%;
+	}
+
+	.bonus_table .bonus_table-conditions {
+		margin-right: -3px !important;
+		font-size: 12px;
+	}
+
+	.bonus_table {
+		.bonus_table-item {
+			&:nth-child(4){
+				padding-bottom: 54px;
+			}
+		}
+	}
+
+	.bonus_table-text--procent {
+		font-size: 13px!important;
+	}
+
+	.loyalty_label {
+		width: 280px;
+	}
+} 
+
