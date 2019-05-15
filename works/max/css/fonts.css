@@ -1,0 +1,13 @@
+@font-face {
+	font-family: CYRIL;
+	src: url('..//fonts/CYRIL.TTF');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: DS Yermak_D;
+	src: url('..//fonts/yermak.TTF');
+	font-weight: normal;
+	font-style: normal;
+}
