@@ -1,0 +1,17 @@
+.p__wrapper {
+	margin: 40px 20px!important;
+}
+.b-option-description__advantages p{
+	font-weight: normal;
+}
+.b-options-table__inner {
+	width: 100%;
+}
+.b-section__title {
+	color: rgba(0, 0, 0, 0.8);
+}
+.b-accordion__content-new {
+	display: none;
+	border-bottom: none;
+	padding: 0 20px 0 20px;
+}
