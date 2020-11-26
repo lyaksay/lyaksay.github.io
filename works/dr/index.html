@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Не вижу огня в заднице, БЕГОМ! (с)</title>
+</head>
+<style>
+	h2:hover {
+		width: 45%!important;
+		left: 28%!important;
+		font-size: 160px!important;
+		top: 55% !important;
+		cursor: pointer;
+		color: #fa8e3f !important;
+	}
+</style>
+
+<body style="background: linear-gradient(to bottom, #0c0d11 0%, #111520 36%, #182432 100%); overflow:  hidden;">
+	<h2 style="color: #e1edf1;position: absolute; width: 25%;left: 20%;font-size: 14px;top: 8%;z-index: 1;font-family: monospace;transition: all 6500ms cubic-bezier(.17,.67,0,1.34);">
+		— Это что ещё за мать твою?! <br>
+		— Похоже на советскую БМ-21. Старая ракетная артиллерия. Не слишком точная, но если начнёт херачить — считай,
+		денёк не задался.</h2>
+		<img style="display: block;position: relative;margin: 40px auto;" src="Drroschin.jpg"
+		alt="Юухууу, подобью суку! (с)">
+		<audio id="player" autoplay>
+			<source src="audio/Battlefield_3-Main_Theme-spaces.im.mp3" type="audio/mp3">
+		</audio>
+</body>
+
+<script>
+	document.addEventListener('click', musicPlay);
+function musicPlay() {
+    document.getElementById('player').play();
+    document.removeEventListener('click', musicPlay);
+}
+</script>
+
+</html>
